@@ -1,0 +1,326 @@
+/*
+Theme Name: Ideali 
+Author: Tom Kaufmann
+Description: Modeling Theme for Ideali Models Agency
+Version: 0.1
+Requires PHP: > 8.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ideali
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+html, body, .card-body{
+    font-weight: 300;
+    font-family: Raleway,sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    max-width: 100%;
+    color:black;
+    overflow-x: hidden;
+}
+.h-150{
+    min-height:150px;
+    max-height:150px;
+    height:150px;
+}
+.bg-grey{
+    background-color:grey;
+}
+.bg-white{
+    background-color:white;
+}
+.bg-black{
+    background-color:black;
+}
+.text-underline{
+    text-decoration: underline;
+}
+.carousel-who-we-are{
+    max-width: 1000px;
+}
+.card-name{
+    font-family: "Segoe UI", Arial, sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    max-width: 100%;
+    color:white;
+    background-color:black;
+}
+.wrapper{
+    flex:1;
+}
+.header-desktop{
+    background-color:white;
+}
+img{
+    max-width:100%;
+max-height:100%;
+}
+ul{
+    list-style-type: none;
+    padding-left:0px;
+}
+div.content-model
+{
+    min-width:80%;
+    max-width:80%;
+}
+.model, .category-image{
+        aspect-ratio: 4 /5;
+        object-fit: cover;  
+}
+
+.category-model{
+    object-fit: cover;
+}
+.model{
+    min-height:260px;
+    max-height:260px;
+    min-width:173px;
+    max-width:173px;
+}
+
+.category-image{
+    max-height:380px;
+    min-height:380px;
+}
+
+.card-body{
+    overflow-y: hidden;
+}
+li.letter{
+    float: left;
+    margin: 2%;
+    font-size: 18px;
+}
+li.letter:active{
+    border:solid 1px;
+}
+
+li { cursor: pointer; }
+/**Refers to models.php menu-class "model-menu" **/
+.model-menu{
+    justify-content: center;
+    display:flex;
+    flex-wrap:wrap;
+}
+.image
+{
+  position:relative;
+  width: 100%;
+  height: 300px;
+      background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+img.instagram-icon{
+    max-width:40px;
+    min-width:40px;
+    max-height:40px;
+    min-height:40px;
+}
+
+.nav-link{
+    color:white;
+}
+.list-group-item{
+    background-color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    ul#menu-header-menu>li.menu-item{
+        padding-bottom: 2%;
+    }
+    li.letter{
+        font-size: 24px;
+    }
+    li.menu-item{
+        margin-bottom: 2%;
+    }
+}
+.active{
+    background-color:lightgray;
+}
+#logo{
+    max-width: 8vw;
+}
+
+
+.b-white{
+    background-color:white;
+}
+
+.magazincover{
+    height:100%;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+.contact-banner{
+    background-image: url("./img/banner/banner-contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container-contact{
+    min-height:50vh;
+    min-width:50vw;
+}
+#ideali-address-location{
+    max-width: 600px;
+    max-height:400px;
+    width:100%;
+    height:400px;
+
+}
+
+.instagram-logo{
+    width:auto;
+    height:100%;
+}
+.profile-picture{
+    max-height: 100%;
+  width: auto;
+}
+
+.container-models{
+    max-height:82vh;
+}
+figure.wp-block-image{
+    text-align: center!important;
+}
+.menu-header-menu-container{
+  min-height:100%;
+  text-align: center;
+}
+figure.wp-block-image{
+    text-align: center!important;
+}
+
+
+ul#menu-header-menu-1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+ul#menu-model-kategorie-menu > li{
+    background-color:white;
+    color:black;
+}
+  
+  li.menu-item {
+    float: left;
+  }
+  
+  li.menu-item a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color:inherit;
+  }
+.container-fluid.container-xl{
+    max-width:1600px;
+}
+.w-10{
+    width: 10% !important;
+}
+.carousel-image{
+object-fit: cover;
+aspect-ratio:1/2;
+}
+.header-mobile{
+    background-color:white;
+}
+.h-75 {
+    height: 75vh !important;
+    min-height: 75vh !important;
+  }
+  .wp-block-image img {
+    min-width: 100%;
+  }
+  .menu-item{
+    color: black;
+  }
+  ul#menu-header-menu-1 > li.menu-item a{
+    color:black;
+  }
+  a:hover, a:focus, a:active {
+    color: #999;
+    text-decoration: none;
+}
+.header-menu > .menu-item a
+ {
+    text-decoration: none;
+    transition: color 0.1s, background-color 0.1s;
+}
+.header-menu > .menu-item a
+ {
+    position: relative;
+    display: block;
+    padding: 16px 0;
+    margin: 0 12px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+    color: #000;
+}
+.header-menu > .menu-item a
+::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: color 0.1s,transform 0.2s ease-out;
+}
+.header-menu > .menu-item a
+:active::before {
+    background-color: #000;
+}
+.header-menu > .menu-item a
+:hover::before, a:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
+  .wp-block-image{
+    margin-right: 5%;
+  }
+  figure.wp-block-image{
+    margin-bottom: 8px;
+}
+label.form-label{
+    min-width: 430px;
+    max-width: 430px;
+}
+
+/**Banner Section**/
+#banner-faces{
+    background-image:  url("./img/banner/faces.jpeg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:600px;
+    background-position: 10% 16%;
+}
+#banner-models{
+    background-image:  url("./img/banner/models.jpeg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:600px;
+    background-position: -5% 80%;
+}
+#banner-makeup{
+    background-image:  url("./img/banner/makeup.jpeg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:600px;
+}
