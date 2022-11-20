@@ -1,14 +1,12 @@
 <?php /* Template Name: Models */ ?>
-<?php get_header(); ?>
-<div class="container-fluid content mt-4 p-lg-0">
+<?php get_header();?>
+<div class="container-fluid content mt-4 p-lg-0 bg-grey">
     <div class="row d-flex justify-content-center">
-        <h2 class="text-center">Unsere Models</h2>
-
         <?php
         wp_nav_menu(array(
             'theme_location' => 'model-category-menu',
             'container_class' => 'model-category-menu',
-            'menu_class' => 'model-menu'
+            'menu_class' => 'model-menu bg-grey mt-2'
         ));
         ?>
         <div class="row d-flex justify-content-around px-0 px-md-5">
@@ -23,18 +21,33 @@
             // The Loop
             if ($models->have_posts()) {
                 while ($models->have_posts()) {
-                    $models->the_post(); ?>
+                    $models->the_post();
+                    $brust = get_post_meta(get_the_ID(), 'Brust', true);
+                    $taille = get_post_meta(get_the_ID(), 'Taille', true);
+                     $huefte = get_post_meta(get_the_ID(), 'Hüfte', true);
+                      ?>
                     <div class="col-12 col-lg d-flex justify-content-center justify-content-lg-start text-center mb-3 p-0 model">
-                        <div class="card border-0 w-100">
+                        <div class="card border-0 w-100 border-radius-0 card-models">
                             <div class="card-body w-100 container-models p-0">
                                 <a href="<?php echo get_permalink(); ?>">
                                     <figure class="wp-block-image size-large">
-                                        <img class="model" src="<?php echo get_profile_picture() ?>" />
+                                        <!--<img class="model" src="<?php echo get_profile_picture() ?>" />-->
+                                        <img class="model" src="<?php echo get_template_directory_uri(); ?>/img/model.jpg" />
                                     </figure>
                                 </a>
                             </div>
-                            <div class="card-name p-lg-0 pt-3">
-                                <h5 class="model-name text-uppercase mt-md-3"><?php echo the_title(); ?></h5>
+                            <div class="p-lg-0 pt-3 container-fluid bg-black info-models">
+                                <div class="row d-flex">
+                                    <div class="col-md-4">
+                                        <p class="m-0 font-black"><?php echo $brust; ?></p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="m-0 font-black"> <?php echo $taille; ?></p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="m-0 font-black"> <?php echo $huefte; ?></p>
+                                    </div>
+                                </div> 
                             </div>
                         </div>
                     </div>

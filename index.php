@@ -12,16 +12,23 @@
                 </div>
                 <div class="carousel-inner text-center">
                     <div id="banner-faces" class="carousel-item bg-black text-white active p-5">
-                        <h2 class="mt-5">Unsere Kunden</h2> 
-                        <p class="mt-5">Wir sind erfahren, verlässlich sowie jederzeit auf gute Ergebnisse fokussiert und wissen es zu schätzen, mit großartigen Kunden zusammenzuarbeiten.</p>
+                        <div class="col-2" id="faces-absolute">
+                            <p class="mt-5 font-20">Die Gesichter der neuen Generation</p> 
+                            <a href="" class="font-20 ">Unsere Models</a>
+                        </div>
+                    
                     </div>
                     <div id="banner-models" class="carousel-item bg-black text-white p-5">
-                        <h2 class="mt-5">Unsere Motivation</h2>
-                        <p class="mt-5">Unsere Arbeit ist unsere Leidenschaft und ein positiver Antrieb für jeden Tag. Sie bringt unser Team dazu, an jeder neuen Herausforderung zu wachsen und so neue Ziele zu erreichen.</p>
+                        <div class="col-2" id="models-absolute">
+                            <p class="mt-5 font-20">Buchen Sie unsere Models</p>
+                            <a href="" class="font-20 ">Buchen</a>
+                        </div>  
                     </div>
                     <div id="banner-makeup" class="carousel-item bg-black text-white p-5">
-                        <h2 class="mt-5">Unser Team</h2>
-                        <p class="mt-5">Wir haben immer ein Projekt, an dem wir arbeiten. Meistens für unsere Kunden. Von Zeit zu Zeit ist es aber auch ein persönliches Vorhaben, wie für gemeinnützige Organisationen, das uns neue Inspiration gewinnen lässt.</p>
+                        <div class="col-2" id="makeup-absolute">
+                            <p class="mt-5 font-20">Buchen Sie unsere Makeup - Artists</p>
+                            <a href="" class="font-20 ">Buchen</a>
+                        </div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel-banner" data-bs-slide="prev">
@@ -63,7 +70,7 @@
                 <h5 class="card-title text-white pb-3">Models & Influencer*innen</h5>
                 <p class="card-text text-white h-150">Kurze Beschreibung, dass wir nicht nur Models, sondern auch Influencer*innen in unserer Agentur haben. 
 Save space für klassische und außergewöhnliche Newcomer </p>
-                <a href="#" class="text-underline">Models</a>
+                <a href="#" class="">Models</a>
             </div>
         </div>
         </div>
@@ -73,7 +80,7 @@ Save space für klassische und außergewöhnliche Newcomer </p>
             <div>
                 <h5 class="card-title text-white pb-3">Video- & Fotografen*innen</h5>
                 <p class="card-text text-white h-150">Fotografen sind ein wichtiger Bestandteil in der Werbe- und Modewelt und dürfen bei uns nicht fehlen. </p>
-                <a href="#" class="text-underline">Video & Fotoproduktion</a>
+                <a href="#" class="">Video & Fotoproduktion</a>
             </div>
         </div>
         </div>
@@ -83,7 +90,7 @@ Save space für klassische und außergewöhnliche Newcomer </p>
             <div>
                 <h5 class="card-title text-white pb-3">Makeup Artists</h5>
                 <p class="card-text text-white h-150">Beschrieben, dass es ein rieseigen Unterschied macht eine Visa mit dabei zu haben, sowohl für die Qualität der Fotos als auch bei der Bearbeitung.</p>
-                <a href="#" class="text-underline">Makeup Artists</a>
+                <a href="#" class="">Makeup Artists</a>
             </div>
         </div>
         </div>
@@ -93,7 +100,7 @@ Save space für klassische und außergewöhnliche Newcomer </p>
             <div>
                 <h5 class="card-title text-white pb-3">Marketing & Produktion</h5>
                 <p class="card-text text-white h-150">Wenn Sie auf der Suche nach einem kreativen Unternehmen sind, das Ihr Projekt voranbringen kann, sind Sie bei uns genau richtig. Wir verfügen über die nötige Kompetenz und kreative Lösungsansätze. </p>
-                <a href="#" class="text-underline">Marketing & Produktion</a>
+                <a href="#" class="">Marketing & Produktion</a>
             </div>
         </div>
         </div>
@@ -132,61 +139,16 @@ Save space für klassische und außergewöhnliche Newcomer </p>
         </div>
     </div>
 </div>
-<div class="container-fluid mt-5 p-0">
-    <div class="row d-flex justify-content-center">
-        <h2 class="text-center">Unsere Models</h2>
-
-        <?php
-        wp_nav_menu(array(
-            'theme_location' => 'model-category-menu',
-            'container_class' => 'model-category-menu',
-            'menu_class' => 'model-menu'
-        ));
-        ?>
-        <div class="row d-flex justify-content-around px-0 px-md-5">
-            <?php
-            $modelsRequest = array(
-                'post_type'         => 'page',
-                'posts_per_page'    => 10,
-                'category_name' => 'Models'
-            );
-            $models = new WP_Query($modelsRequest);
-
-            // The Loop
-            if ($models->have_posts()) {
-                while ($models->have_posts()) {
-                    $models->the_post(); ?>
-                    <div class="col-12 col-lg d-flex justify-content-center justify-content-lg-start text-center mb-3 p-0 model">
-                        <div class="card border-0 w-100">
-                            <div class="card-body w-100 container-models p-0">
-                                <a href="<?php echo get_permalink(); ?>">
-                                    <figure class="wp-block-image size-large">
-                                        <img class="model" src="<?php echo get_profile_picture() ?>" />
-                                    </figure>
-                                </a>
-                            </div>
-                            <div class="card-name p-lg-0 pt-3">
-                                <h5 class="model-name text-uppercase"><?php echo the_title(); ?></h5>
-                            </div>
-                        </div>
-                    </div>
-            <?php
-                }
-            }
-            /* Restore original Post Data */
-            wp_reset_postdata(); ?>
+<div class="container-fluid call-to-action bg-black">
+    <div class="row d-flex justify-content-center pt-5">
+        <div class="col-md-8 ps-0 bg-white">
+            <h2 class="mt-5 mx-5">Möchten Sie mehr wissen?</h2>
+            <div class="mt-5 mx-5">
+                <?php echo do_shortcode('[contact-form-7 id="1305" title="Möchten Sie mehr wissen?"]');?>
+            </div>
         </div>
     </div>
 </div>
-<div class="contact-us container-fluid">
-    <div class="row text-center d-flex justify-content-center mb-5">
-        <h2 class="mb-5">Kontaktieren Sie uns</h2>
-        <div class="col-4 col-md-2 px-lg-0 text-center">
-            <img class="w-25" src="https://idealimodels.de/wp-content/uploads/2022/09/phone-2.png" />
-        </div>
-        <div class="col-4 col-md-2 px-lg-0 text-center">
-            <img class="w-25" src="https://idealimodels.de/wp-content/uploads/2022/09/email-2.png" />
-        </div>
-    </div>
+
 </div>
 <?php get_footer(); ?>

@@ -1,17 +1,14 @@
 <?php /* Template Name: Footer */ ?>
 
 <!-- Footer Container -->
-<footer class="container-fluid footer-container mt-md-5">
+<footer class="container-fluid footer-container pt-md-5 bg-black">
     <div class="row">
-        <div class="col-12 p-3 text-md-start text-center">
+        <div class="col-8 offset-2 p-3 ps-0 text-md-start text-center">
             <div class="col-4 d-inline ms-2">
-                <a href="https://www.instagram.com/idealimodels">Instagram</a>
+                <a href="idealimodels.de/impressum" class="text-underline">Impressum</a>
             </div>
             <div class="col-4 d-inline ms-2">
-                <a href="https://idealimodels.de/datenschutz">Datenschutz</a>
-            </div>
-            <div class="col-4 d-inline ms-2">
-                <a href="https://idealimodels.de/impressum">Impressum</a>
+                <a href="idealimodels.de/datenschutz" class="text-underline">Datenschutz</a>
             </div>
         </div>
     </div>

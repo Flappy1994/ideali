@@ -26,7 +26,7 @@ html, body, .card-body{
     height:150px;
 }
 .bg-grey{
-    background-color:grey;
+    background-color:#6b6b6a;
 }
 .bg-white{
     background-color:white;
@@ -76,10 +76,10 @@ div.content-model
     object-fit: cover;
 }
 .model{
-    min-height:260px;
-    max-height:260px;
-    min-width:173px;
-    max-width:173px;
+    min-height:322.5px;
+    max-height:322.5px;
+    min-width:322.5px;
+    max-width:322.5px;
 }
 
 .category-image{
@@ -144,7 +144,7 @@ img.instagram-icon{
     background-color:lightgray;
 }
 #logo{
-    max-width: 8vw;
+    max-width: 4vw;
 }
 
 
@@ -186,15 +186,13 @@ a{
   width: auto;
 }
 
-.container-models{
-    max-height:82vh;
-}
 figure.wp-block-image{
     text-align: center!important;
 }
 .menu-header-menu-container{
   min-height:100%;
   text-align: center;
+  margin-top:1%;
 }
 figure.wp-block-image{
     text-align: center!important;
@@ -208,24 +206,20 @@ ul#menu-header-menu-1 {
     overflow: hidden;
   }
 ul#menu-model-kategorie-menu > li{
-    background-color:white;
-    color:black;
+    background-color:#6b6b6a;
+    color:white;
 }
   
   li.menu-item {
     float: left;
+    color: #6b6b6a;
   }
   
   li.menu-item a {
     display: block;
     text-align: center;
-    padding: 16px;
-    text-decoration: none;
     color:inherit;
   }
-.container-fluid.container-xl{
-    max-width:1600px;
-}
 .w-10{
     width: 10% !important;
 }
@@ -240,34 +234,24 @@ aspect-ratio:1/2;
     height: 75vh !important;
     min-height: 75vh !important;
   }
-  .wp-block-image img {
-    min-width: 100%;
-  }
-  .menu-item{
-    color: black;
-  }
-  ul#menu-header-menu-1 > li.menu-item a{
-    color:black;
-  }
   a:hover, a:focus, a:active {
-    color: #999;
-    text-decoration: none;
-}
-.header-menu > .menu-item a
- {
-    text-decoration: none;
-    transition: color 0.1s, background-color 0.1s;
+    color:inherit;
+    border-bottom: 1px solid !important;
 }
 .header-menu > .menu-item a
  {
     position: relative;
     display: block;
-    padding: 16px 0;
-    margin: 0 12px;
+    margin: 0 25px;
     letter-spacing: 1px;
-    line-height: 16px;
-    transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
-    color: #000;
+    font-size: 20px;
+}
+.model-menu > .menu-item a
+ {
+    position: relative;
+    display: block;
+    margin: 0 25px;
+    letter-spacing: 1px;
 }
 .header-menu > .menu-item a
 ::before {
@@ -298,10 +282,7 @@ aspect-ratio:1/2;
   figure.wp-block-image{
     margin-bottom: 8px;
 }
-label.form-label{
-    min-width: 430px;
-    max-width: 430px;
-}
+
 
 /**Banner Section**/
 #banner-faces{
@@ -309,14 +290,15 @@ label.form-label{
     background-repeat:no-repeat;
     background-size:cover;
     height:600px;
-    background-position: 10% 16%;
+    background-position: 10% 29%;
+    
 }
 #banner-models{
     background-image:  url("./img/banner/models.jpeg");
     background-repeat:no-repeat;
     background-size:cover;
     height:600px;
-    background-position: -5% 80%;
+    background-position: -10% 56%;
 }
 #banner-makeup{
     background-image:  url("./img/banner/makeup.jpeg");
@@ -324,3 +306,53 @@ label.form-label{
     background-size:cover;
     height:600px;
 }
+.font-20{
+    font-size:20px;
+}
+#faces-absolute{
+    position: absolute;
+    left: 35%;
+    top: 36%;
+}
+#models-absolute{
+    position: absolute;
+    left: 51%;
+    top: 39%;
+}
+#makeup-absolute{
+    position: absolute;
+    left: 19%;
+    top: 24%;
+}
+textarea, input{
+    border: 1px solid #c6c6c6;
+    border-radius: 5px;
+    min-width:100%;
+}
+input[type=submit]{
+    min-width:15%;
+    max-width:15%;
+    background-color:#6b6b6a;
+    color:white;
+}
+label{
+    min-width: 100%;
+}
+.border-radius-0{
+    border-radius:0px;
+}
+
+.font-black{
+    color:black;
+}
+.card-models:hover .info-models > .row > .col-md-4 > p{
+    color:white;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+.text-gray{
+    color: #6b6b6a;
+}
+
+
+  
