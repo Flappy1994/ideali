@@ -25,27 +25,31 @@
                     $brust = get_post_meta(get_the_ID(), 'Brust', true);
                     $taille = get_post_meta(get_the_ID(), 'Taille', true);
                      $huefte = get_post_meta(get_the_ID(), 'Hüfte', true);
+                     $groesse = get_post_meta(get_the_ID(), 'Größe', true);
                       ?>
                     <div class="col-12 col-lg d-flex justify-content-center justify-content-lg-start text-center mb-3 p-0 model">
                         <div class="card border-0 w-100 border-radius-0 card-models">
                             <div class="card-body w-100 container-models p-0">
                                 <a href="<?php echo get_permalink(); ?>">
                                     <figure class="wp-block-image size-large">
-                                        <!--<img class="model" src="<?php echo get_profile_picture() ?>" />-->
-                                        <img class="model" src="<?php echo get_template_directory_uri(); ?>/img/model.jpg" />
+                                        <img class="model" src="<?php echo get_profile_picture() ?>" />
+                                        <!--<img class="model" src="<?php echo get_template_directory_uri(); ?>/img/model.jpg" />-->
                                     </figure>
                                 </a>
                             </div>
                             <div class="p-lg-0 pt-3 container-fluid bg-black info-models">
                                 <div class="row d-flex">
-                                    <div class="col-md-4">
+                                    <div class="col-md-3">
                                         <p class="m-0 font-black"><?php echo $brust; ?></p>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-3">
                                         <p class="m-0 font-black"> <?php echo $taille; ?></p>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-3">
                                         <p class="m-0 font-black"> <?php echo $huefte; ?></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="m-0 font-black"> <?php echo $groesse; ?></p>
                                     </div>
                                 </div> 
                             </div>

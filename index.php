@@ -63,7 +63,7 @@
         </div>
     </div>
     <div class="row d-flex justify-content-center pb-5">
-        <div class="col-md-3 col-6">
+        <div class="col-md-2 col-6">
         <div class="">
             <img class="pb-3" src="<?php echo get_template_directory_uri(); ?>/img/services/models.png" class="card-img-top" alt="...">
             <div>
@@ -74,7 +74,7 @@ Save space für klassische und außergewöhnliche Newcomer </p>
             </div>
         </div>
         </div>
-        <div class="col-md-3 col-6">
+        <div class="col-md-2 col-6">
             <div class="">
             <img class="pb-3" src="<?php echo get_template_directory_uri(); ?>/img/services/photography.png" class="card-img-top" alt="...">
             <div>
@@ -84,7 +84,7 @@ Save space für klassische und außergewöhnliche Newcomer </p>
             </div>
         </div>
         </div>
-        <div class="col-md-3 col-6">
+        <div class="col-md-2 col-6">
             <div class="">
             <img class="pb-3" src="<?php echo get_template_directory_uri(); ?>/img/services/makeup.png" class="card-img-top" alt="...">
             <div>
@@ -94,7 +94,7 @@ Save space für klassische und außergewöhnliche Newcomer </p>
             </div>
         </div>
         </div>
-        <div class="col-md-3 col-6">
+        <div class="col-md-2 col-6">
             <div class="">
             <img class="pb-3" src="<?php echo get_template_directory_uri(); ?>/img/services/marketing.png" class="card-img-top" alt="...">
             <div>
