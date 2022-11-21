@@ -139,7 +139,7 @@ Save space für klassische und außergewöhnliche Newcomer </p>
         </div>
     </div>
 </div>
-<div class="container-fluid call-to-action bg-black">
+<div class="container-fluid call-to-action bg-black pb-md-5">
     <div class="row d-flex justify-content-center pt-5">
         <div class="col-md-8 ps-0 bg-white">
             <h2 class="mt-5 mx-5">Möchten Sie mehr wissen?</h2>

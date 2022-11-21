@@ -234,9 +234,13 @@ aspect-ratio:1/2;
     height: 75vh !important;
     min-height: 75vh !important;
   }
+
   a:hover, a:focus, a:active {
     color:inherit;
-    border-bottom: 1px solid !important;
+    border-bottom: 1px solid;
+}
+a.navbar-brand:hover,a.navbar-brand:focus,a.navbar-brand:active{
+    border-bottom:none !important;
 }
 .header-menu > .menu-item a
  {
@@ -269,7 +273,7 @@ aspect-ratio:1/2;
 }
 .header-menu > .menu-item a
 :active::before {
-    background-color: #000;
+    background-color: transparent;
 }
 .header-menu > .menu-item a
 :hover::before, a:focus::before {
@@ -345,13 +349,16 @@ label{
 .font-black{
     color:black;
 }
-.card-models:hover .info-models > .row > .col-md-4 > p{
+.card-models:hover .info-models > .row > .col-md-3 > p{
     color:white;
     transition: 1s;
     transition-timing-function: linear;
 }
 .text-gray{
     color: #6b6b6a;
+}
+.w-60{
+    width: 60%!important;
 }
 
 

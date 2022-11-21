@@ -3,7 +3,7 @@
 <!-- Footer Container -->
 <footer class="container-fluid footer-container pt-md-5 bg-black">
     <div class="row">
-        <div class="col-8 offset-2 p-3 ps-0 text-md-start text-center">
+        <div class="col-8 p-3 ps-md-5 ps-0 text-md-start text-center">
             <div class="col-4 d-inline ms-2">
                 <a href="idealimodels.de/impressum" class="text-underline">Impressum</a>
             </div>

@@ -47,12 +47,12 @@
         <div class="row" id="header-row">
             <div class="col-md-12 p-3">
                 <div class="row">
-                    <div class="col-1 text-start d-flex align-items-center">
+                    <div class="col-1 ps-md-5 text-start d-flex align-items-center">
                         <a class="navbar-brand" href="idealimodels.de">
                             <img id="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo-im.png" />
                         </a>
                     </div>
-                    <div class="col-11">
+                    <div class="col-11 pe-md-5 pb-md-3">
                         <div class="navbar-nav">
                             <?php
                             wp_nav_menu(array(
