@@ -24,7 +24,7 @@
     <div class="container-fluid header-mobile d-flex d-lg-none m-0 text-uppercase">
         <div class="mobile d-lg-none col-12 p-0">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="<?php echo home_url(); ?>">
+                <a class="navbar-brand" href="idealimodels.de">
                     <img id="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo-im.png" />
                 </a>
                 <button class="navbar-toggler" style="border:none" type="button" data-bs-toggle="collapse" data-bs-target="#mobilenav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +48,7 @@
             <div class="col-md-12 p-3">
                 <div class="row">
                     <div class="col-1 text-start d-flex align-items-center">
-                        <a class="navbar-brand" href="<?php echo home_url(); ?>">
+                        <a class="navbar-brand" href="idealimodels.de">
                             <img id="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo-im.png" />
                         </a>
                     </div>
