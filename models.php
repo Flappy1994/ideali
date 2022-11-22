@@ -38,27 +38,27 @@
                                     </figure>
                                 </a>
                             </div>
-                            <div class="p-lg-0 pt-3 container-fluid bg-black info-models">
+                            <div class="p-lg-0 pt-3 container-fluid bg-grey info-models">
                                 <div class="row d-flex">
                                     <div class="col-md-4 details">
-                                        <p class="m-0 font-black"><?php echo $name; ?></p>
+                                        <p class="m-0 text-white"><?php echo $name; ?></p>
                                     </div>
                                     <div class="col-md-4 details">
-                                        <p class="m-0 font-black"> <?php echo $groesse; ?></p>
+                                        <p class="m-0 text-white"> <?php echo $groesse; ?></p>
                                     </div>
                                     <div class="col-md-4 details">
-                                        <p class="m-0 font-black"><?php echo $konfektion; ?></p>
+                                        <p class="m-0 text-white"><?php echo $konfektion; ?></p>
                                     </div>
                                 </div>
                                 <div class="row d-flex">
                                     <div class="col-md-4 details">
-                                        <p class="m-0 font-black"><?php echo $brust; ?></p>
+                                        <p class="m-0 text-white"><?php echo $brust; ?></p>
                                     </div>
                                     <div class="col-md-4 details">
-                                        <p class="m-0 font-black"> <?php echo $taille; ?></p>
+                                        <p class="m-0 text-white"> <?php echo $taille; ?></p>
                                     </div>
                                     <div class="col-md-4 details">
-                                        <p class="m-0 font-black"> <?php echo $huefte; ?></p>
+                                        <p class="m-0 text-white"> <?php echo $huefte; ?></p>
                                     </div>
                                 </div> 
                             </div>

@@ -32,7 +32,7 @@ html, body, .card-body{
     background-color:white;
 }
 .bg-black{
-    background-color:black;
+    background-color:black !important;
 }
 .text-underline{
     border-bottom:1px solid;
@@ -353,10 +353,21 @@ label{
 .font-black{
     color:black;
 }
-.card-models:hover .info-models > .row > .details > p{
-    color:white;
-    transition: 1s;
-    transition-timing-function: linear;
+.info-models{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width:0px;
+    opacity: 0;
+    background-color: #6b6b6a;
+    transition: opacity 0.5s linear;  
+}
+
+.card-models:hover .info-models{
+    width:100%;
+    position:static;
+    opacity: 1;
+    background-color: #6b6b6a;
 }
 .text-gray{
     color: #6b6b6a;
