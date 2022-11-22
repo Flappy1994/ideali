@@ -14,20 +14,20 @@
                     <div id="banner-faces" class="carousel-item bg-black text-white active p-5">
                         <div class="col-2" id="faces-absolute">
                             <p class="mt-5 font-20">Die Gesichter der neuen Generation</p> 
-                            <a href="" class="font-20 ">Unsere Models</a>
+                            <a href="" class="font-20 text-white">Unsere Models</a>
                         </div>
                     
                     </div>
                     <div id="banner-models" class="carousel-item bg-black text-white p-5">
                         <div class="col-2" id="models-absolute">
                             <p class="mt-5 font-20">Buchen Sie unsere Models</p>
-                            <a href="" class="font-20 ">Buchen</a>
+                            <a href="" class="font-20 text-white">Buchen</a>
                         </div>  
                     </div>
                     <div id="banner-makeup" class="carousel-item bg-black text-white p-5">
                         <div class="col-2" id="makeup-absolute">
                             <p class="mt-5 font-20">Buchen Sie unsere Makeup - Artists</p>
-                            <a href="" class="font-20 ">Buchen</a>
+                            <a href="" class="font-20 text-white">Buchen</a>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                 <h5 class="card-title text-white pb-3">Models & Influencer*innen</h5>
                 <p class="card-text text-white h-150">Kurze Beschreibung, dass wir nicht nur Models, sondern auch Influencer*innen in unserer Agentur haben. 
 Save space für klassische und außergewöhnliche Newcomer </p>
-                <a href="#" class="">Models</a>
+                <a href="#" class="text-white">Models</a>
             </div>
         </div>
         </div>
@@ -80,7 +80,7 @@ Save space für klassische und außergewöhnliche Newcomer </p>
             <div>
                 <h5 class="card-title text-white pb-3">Video- & Fotografen*innen</h5>
                 <p class="card-text text-white h-150">Fotografen sind ein wichtiger Bestandteil in der Werbe- und Modewelt und dürfen bei uns nicht fehlen. </p>
-                <a href="#" class="">Video & Fotoproduktion</a>
+                <a href="#" class="text-white">Video & Fotoproduktion</a>
             </div>
         </div>
         </div>
@@ -90,7 +90,7 @@ Save space für klassische und außergewöhnliche Newcomer </p>
             <div>
                 <h5 class="card-title text-white pb-3">Makeup Artists</h5>
                 <p class="card-text text-white h-150">Beschrieben, dass es ein rieseigen Unterschied macht eine Visa mit dabei zu haben, sowohl für die Qualität der Fotos als auch bei der Bearbeitung.</p>
-                <a href="#" class="">Makeup Artists</a>
+                <a href="#" class="text-white">Makeup Artists</a>
             </div>
         </div>
         </div>
@@ -100,7 +100,7 @@ Save space für klassische und außergewöhnliche Newcomer </p>
             <div>
                 <h5 class="card-title text-white pb-3">Marketing & Produktion</h5>
                 <p class="card-text text-white h-150">Wenn Sie auf der Suche nach einem kreativen Unternehmen sind, das Ihr Projekt voranbringen kann, sind Sie bei uns genau richtig. Wir verfügen über die nötige Kompetenz und kreative Lösungsansätze. </p>
-                <a href="#" class="">Marketing & Produktion</a>
+                <a href="#" class="text-white">Marketing & Produktion</a>
             </div>
         </div>
         </div>

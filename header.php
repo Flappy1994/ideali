@@ -54,13 +54,23 @@
                     </div>
                     <div class="col-11 pe-md-5 pb-md-3">
                         <div class="navbar-nav">
-                            <?php
+                            <div class="row">
+                                <div class="col-10">
+                                <?php
                             wp_nav_menu(array(
                                 'theme_location' => 'header-menu',
                                 'menu_class' => 'header-menu d-flex justify-content-end flex-wrap'
                             ));
                             ?>
+                            </div>
+                            <div class="col-2 pt-md-3">
+                            <?php echo do_shortcode('[wpdreams_ajaxsearchlite]'); ?>
+                            </div>
+                                </div>
+                            </div>
+                       
                         </div>
+                       
                     </div>
                 </div>
             </div>

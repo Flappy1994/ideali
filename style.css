@@ -35,7 +35,7 @@ html, body, .card-body{
     background-color:black;
 }
 .text-underline{
-    text-decoration: underline;
+    border-bottom:1px solid;
 }
 .carousel-who-we-are{
     max-width: 1000px;
@@ -75,7 +75,7 @@ div.content-model
 .category-model{
     object-fit: cover;
 }
-.model{
+.model, .category-model{
     min-height:322.5px;
     max-height:322.5px;
     min-width:322.5px;
@@ -93,6 +93,7 @@ div.content-model
 li.letter{
     float: left;
     margin: 2%;
+    padding: 1%;
     font-size: 18px;
 }
 li.letter:active{
@@ -236,7 +237,10 @@ aspect-ratio:1/2;
   }
 
   a:hover, a:focus, a:active {
-    color:inherit;
+   /** color:inherit;*/
+    border-bottom: 1px solid;
+}
+li.current-menu-item > a{
     border-bottom: 1px solid;
 }
 a.navbar-brand:hover,a.navbar-brand:focus,a.navbar-brand:active{
@@ -349,7 +353,7 @@ label{
 .font-black{
     color:black;
 }
-.card-models:hover .info-models > .row > .col-md-3 > p{
+.card-models:hover .info-models > .row > .details > p{
     color:white;
     transition: 1s;
     transition-timing-function: linear;
@@ -357,8 +361,12 @@ label{
 .text-gray{
     color: #6b6b6a;
 }
+
 .w-60{
     width: 60%!important;
+}
+.container-category{
+    min-height:75vh;
 }
 
 

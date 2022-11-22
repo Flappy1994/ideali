@@ -5,10 +5,10 @@
     <div class="row">
         <div class="col-8 p-3 ps-md-5 ps-0 text-md-start text-center">
             <div class="col-4 d-inline ms-2">
-                <a href="idealimodels.de/impressum" class="text-underline">Impressum</a>
+                <a href="idealimodels.de/impressum" class="text-underline text-white">Impressum</a>
             </div>
             <div class="col-4 d-inline ms-2">
-                <a href="idealimodels.de/datenschutz" class="text-underline">Datenschutz</a>
+                <a href="idealimodels.de/datenschutz" class="text-underline text-white">Datenschutz</a>
             </div>
         </div>
     </div>

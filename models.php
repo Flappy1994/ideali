@@ -26,6 +26,8 @@
                     $taille = get_post_meta(get_the_ID(), 'Taille', true);
                      $huefte = get_post_meta(get_the_ID(), 'Hüfte', true);
                      $groesse = get_post_meta(get_the_ID(), 'Größe', true);
+                     $konfektion = get_post_meta(get_the_ID(), 'Konfektionsgröße', true);
+                     $name = get_the_title();
                       ?>
                     <div class="col-12 col-md-3 d-flex justify-content-center justify-content-lg-start text-center mb-3 p-0 model">
                         <div class="card border-0 w-100 border-radius-0 card-models">
@@ -38,17 +40,25 @@
                             </div>
                             <div class="p-lg-0 pt-3 container-fluid bg-black info-models">
                                 <div class="row d-flex">
-                                    <div class="col-md-3">
+                                    <div class="col-md-4 details">
+                                        <p class="m-0 font-black"><?php echo $name; ?></p>
+                                    </div>
+                                    <div class="col-md-4 details">
+                                        <p class="m-0 font-black"> <?php echo $groesse; ?></p>
+                                    </div>
+                                    <div class="col-md-4 details">
+                                        <p class="m-0 font-black"><?php echo $konfektion; ?></p>
+                                    </div>
+                                </div>
+                                <div class="row d-flex">
+                                    <div class="col-md-4 details">
                                         <p class="m-0 font-black"><?php echo $brust; ?></p>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-4 details">
                                         <p class="m-0 font-black"> <?php echo $taille; ?></p>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-4 details">
                                         <p class="m-0 font-black"> <?php echo $huefte; ?></p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <p class="m-0 font-black"> <?php echo $groesse; ?></p>
                                     </div>
                                 </div> 
                             </div>
