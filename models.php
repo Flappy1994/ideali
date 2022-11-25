@@ -2,14 +2,7 @@
 <?php get_header();?>
 <div class="container-fluid content pt-4 p-lg-0 bg-grey">
     <div class="row d-flex justify-content-center">
-        <?php
-        wp_nav_menu(array(
-            'theme_location' => 'model-category-menu',
-            'container_class' => 'model-category-menu my-5',
-            'menu_class' => 'model-menu bg-grey mt-2'
-        ));
-        ?>
-        <div class="row d-flex justify-content-around px-0 px-md-5 w-60">
+        <div class="row d-flex justify-content-around px-0 px-md-5 w-60 mt-lg-5">
             <?php
             $modelsRequest = array(
                 'post_type'         => 'page',
@@ -32,36 +25,42 @@
                     <div class="col-12 col-md-3 d-flex justify-content-center justify-content-lg-start text-center mb-3 p-0 model">
                         <div class="card border-0 w-100 border-radius-0 card-models">
                             <div class="card-body w-100 container-models p-0">
-                                <a href="<?php echo get_permalink(); ?>">
-                                    <figure class="wp-block-image size-large">
-                                        <img class="model" src="<?php echo get_profile_picture() ?>" />
-                                    </figure>
-                                </a>
-                            </div>
-                            <div class="p-lg-0 pt-3 container-fluid bg-grey info-models">
+                                <div class="container-model-picture">
+                                    <a href="<?php echo get_permalink(); ?>">
+                                        <figure class="wp-block-image size-large">
+                                            <!--<img class="model" src="<?php echo get_profile_picture() ?>" /> -->
+                                            <img class="model" src="<?php echo get_template_directory_uri(); ?>/img/model.jpg" />
+                                        </figure>
+                                    </a>
+                                </div>
+                                <div class="p-lg-0 pt-3 container-fluid bg-grey info-models">
                                 <div class="row d-flex">
-                                    <div class="col-md-4 details">
-                                        <p class="m-0 text-white"><?php echo $name; ?></p>
-                                    </div>
-                                    <div class="col-md-4 details">
-                                        <p class="m-0 text-white"> <?php echo $groesse; ?></p>
-                                    </div>
-                                    <div class="col-md-4 details">
-                                        <p class="m-0 text-white"><?php echo $konfektion; ?></p>
+                                    <div class="col-md-12 details">
+                                        <p class="m-0 text-white fw-bold"> <?php echo $name; ?></p>
                                     </div>
                                 </div>
-                                <div class="row d-flex">
-                                    <div class="col-md-4 details">
-                                        <p class="m-0 text-white"><?php echo $brust; ?></p>
+                                <div class="row d-flex px-lg-2">
+                                    <div class="col-md-6 details">
+                                            <p class="m-0 text-white text-start">Konfektion: <?php echo $konfektion; ?></p>
+                                        </div>
+                                    <div class="col-md-6 details">
+                                            <p class="m-0 text-white text-end">Größe: <?php echo  $groesse;?></p>
+                                    </div>
+                                </div>
+                                <div class="row d-flex px-lg-2">
+                                <div class="col-md-4 details">
+                                        <p class="m-0 text-white text-start">Brust: <?php echo $brust; ?></p>
                                     </div>
                                     <div class="col-md-4 details">
-                                        <p class="m-0 text-white"> <?php echo $taille; ?></p>
+                                        <p class="m-0 text-white">Taille: <?php echo $taille; ?></p>
                                     </div>
                                     <div class="col-md-4 details">
-                                        <p class="m-0 text-white"> <?php echo $huefte; ?></p>
+                                        <p class="m-0 text-white text-end">Hüfte: <?php echo $huefte; ?></p>
                                     </div>
-                                </div> 
+                                </div>
                             </div>
+                            </div>
+                            
                         </div>
                     </div>
             <?php

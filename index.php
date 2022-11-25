@@ -6,9 +6,9 @@
             <div class="container-fluid p-0">
                 <div id="carousel-banner" class="carousel carousel-banner slide" data-bs-ride="true">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carousel-banner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carousel-banner" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carousel-banner" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carousel-banner" data-bs-slide-to="0" class="round-buttons active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel-banner" data-bs-slide-to="1" class="round-buttons  "aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel-banner" data-bs-slide-to="2" class="round-buttons  "aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner text-center">
                     <div id="banner-faces" class="carousel-item bg-black text-white active p-5">
@@ -21,7 +21,7 @@
                     <div id="banner-models" class="carousel-item bg-black text-white p-5">
                         <div class="col-2" id="models-absolute">
                             <p class="mt-5 font-20">Buchen Sie unsere Models</p>
-                            <a href="" class="font-20 text-white">Buchen</a>
+                            <a href="" class="font-20 text-black">Buchen</a>
                         </div>  
                     </div>
                     <div id="banner-makeup" class="carousel-item bg-black text-white p-5">
@@ -66,7 +66,7 @@
         <div class="col-md-2 col-6">
         <div class="">
             <img class="pb-3" src="<?php echo get_template_directory_uri(); ?>/img/services/models.png" class="card-img-top" alt="...">
-            <div>
+            <div class="text-start">
                 <h5 class="card-title text-white pb-3">Models & Influencer*innen</h5>
                 <p class="card-text text-white h-150">Kurze Beschreibung, dass wir nicht nur Models, sondern auch Influencer*innen in unserer Agentur haben. 
 Save space für klassische und außergewöhnliche Newcomer </p>
@@ -77,7 +77,7 @@ Save space für klassische und außergewöhnliche Newcomer </p>
         <div class="col-md-2 col-6">
             <div class="">
             <img class="pb-3" src="<?php echo get_template_directory_uri(); ?>/img/services/photography.png" class="card-img-top" alt="...">
-            <div>
+            <div class="text-start">
                 <h5 class="card-title text-white pb-3">Video- & Fotografen*innen</h5>
                 <p class="card-text text-white h-150">Fotografen sind ein wichtiger Bestandteil in der Werbe- und Modewelt und dürfen bei uns nicht fehlen. </p>
                 <a href="#" class="text-white">Video & Fotoproduktion</a>
@@ -87,7 +87,7 @@ Save space für klassische und außergewöhnliche Newcomer </p>
         <div class="col-md-2 col-6">
             <div class="">
             <img class="pb-3" src="<?php echo get_template_directory_uri(); ?>/img/services/makeup.png" class="card-img-top" alt="...">
-            <div>
+            <div class="text-start">
                 <h5 class="card-title text-white pb-3">Makeup Artists</h5>
                 <p class="card-text text-white h-150">Beschrieben, dass es ein rieseigen Unterschied macht eine Visa mit dabei zu haben, sowohl für die Qualität der Fotos als auch bei der Bearbeitung.</p>
                 <a href="#" class="text-white">Makeup Artists</a>
@@ -97,7 +97,7 @@ Save space für klassische und außergewöhnliche Newcomer </p>
         <div class="col-md-2 col-6">
             <div class="">
             <img class="pb-3" src="<?php echo get_template_directory_uri(); ?>/img/services/marketing.png" class="card-img-top" alt="...">
-            <div>
+            <div class="text-start">
                 <h5 class="card-title text-white pb-3">Marketing & Produktion</h5>
                 <p class="card-text text-white h-150">Wenn Sie auf der Suche nach einem kreativen Unternehmen sind, das Ihr Projekt voranbringen kann, sind Sie bei uns genau richtig. Wir verfügen über die nötige Kompetenz und kreative Lösungsansätze. </p>
                 <a href="#" class="text-white">Marketing & Produktion</a>

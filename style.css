@@ -35,7 +35,7 @@ html, body, .card-body{
     background-color:black !important;
 }
 .text-underline{
-    border-bottom:1px solid;
+    border-bottom:2px solid;
 }
 .carousel-who-we-are{
     max-width: 1000px;
@@ -72,14 +72,20 @@ div.content-model
         object-fit: cover;  
 }
 
+.carousel-indicators [data-bs-target]{
+    border-radius: 100%;
+    width: 25px;
+    height: 20px !important;
+}
+
 .category-model{
     object-fit: cover;
 }
 .model, .category-model{
-    min-height:322.5px;
-    max-height:322.5px;
-    min-width:322.5px;
-    max-width:322.5px;
+    min-height:500px;
+    max-height:500px;
+    min-width:500px;
+    max-width:500px;
 }
 
 .category-image{
@@ -213,7 +219,7 @@ ul#menu-model-kategorie-menu > li{
   
   li.menu-item {
     float: left;
-    color: #6b6b6a;
+    color: black;
   }
   
   li.menu-item a {
@@ -238,10 +244,10 @@ aspect-ratio:1/2;
 
   a:hover, a:focus, a:active {
    /** color:inherit;*/
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
 }
 li.current-menu-item > a{
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
 }
 a.navbar-brand:hover,a.navbar-brand:focus,a.navbar-brand:active{
     border-bottom:none !important;
@@ -313,24 +319,26 @@ a.navbar-brand:hover,a.navbar-brand:focus,a.navbar-brand:active{
     background-repeat:no-repeat;
     background-size:cover;
     height:600px;
+    background-position: 8% 43%;
 }
 .font-20{
     font-size:20px;
 }
 #faces-absolute{
     position: absolute;
-    left: 35%;
-    top: 36%;
+    left: 8%;
+    top: 33%;
 }
 #models-absolute{
+    left: 67%;
     position: absolute;
-    left: 51%;
-    top: 39%;
+    top: 31%;
+    color: black !important;
 }
 #makeup-absolute{
     position: absolute;
-    left: 19%;
-    top: 24%;
+    left: 15%;
+    top: 38%;
 }
 textarea, input{
     border: 1px solid #c6c6c6;
@@ -359,26 +367,23 @@ label{
     right: 0;
     width:0px;
     opacity: 0;
-    background-color: #6b6b6a;
+    background-color: rgba(0,0,0,.8);
     transition: opacity 0.5s linear;  
 }
 
 .card-models:hover .info-models{
     width:100%;
-    position:static;
+    position:absolute;
     opacity: 1;
-    background-color: #6b6b6a;
+    background-color: rgba(0,0,0,.8);
 }
 .text-gray{
     color: #6b6b6a;
 }
 
 .w-60{
-    width: 60%!important;
+    width: 86%!important;
 }
 .container-category{
     min-height:75vh;
 }
-
-
-  

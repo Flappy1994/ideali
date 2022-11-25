@@ -105,7 +105,7 @@ $cat_name = get_cat_name($cat_id);
             /* Restore original Post Data */
             wp_reset_postdata(); ?>
             </div>
-        </div>
+        </div>mi
     <div class="row d-flex justify-content-center px-lg-0 pt-lg-5">
         <div class="col-12 mb-lg-5">
             <h2 class="text-center text-white">
