@@ -20,10 +20,38 @@ html, body, .card-body{
     color:black;
     overflow-x: hidden;
 }
-.h-150{
-    min-height:150px;
-    max-height:150px;
-    height:150px;
+p,a{
+    font-size:18px;
+}
+.container-dienstleistungen{
+    min-height:300px;
+    max-height:300px;
+    height:300px;
+}
+.marketing-header{
+    position: absolute;
+    left: 53%;
+    top: 23%;
+}
+.marketing-body{
+    position: absolute;
+    left: 63%;
+    top: 54%;
+    width: 31%;
+}
+.strategy-header{
+    position: absolute;
+    left: 53%;
+    top: 154%;
+}
+.strategy-body{
+    position: absolute;
+    left: 63%;
+    top: 187%;
+    width: 31%;
+}
+.max-height-85{
+    max-height: 85vh;
 }
 .bg-grey{
     background-color:#6b6b6a;
@@ -136,7 +164,7 @@ img.instagram-icon{
     background-color: white;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1199px) {
     ul#menu-header-menu>li.menu-item{
         padding-bottom: 2%;
     }
@@ -145,6 +173,76 @@ img.instagram-icon{
     }
     li.menu-item{
         margin-bottom: 2%;
+    }
+    .marketing-header, .strategy-header{
+        position: inherit;
+    }
+    .marketing-body, .strategy-body{
+        position:inherit;
+        width:100%;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .marketing-header{
+        position: absolute;
+        left: 49%;
+        top: 22%;
+    }
+    .marketing-body{
+        position: absolute;
+        left: 63%;
+        top: 45%;
+        width: 31%;
+    }
+    .strategy-header{
+        position: absolute;
+        left: 53%;
+        top: 130%;
+    }
+    .strategy-body{
+        position: absolute;
+        left: 63%;
+        top: 155%;
+        width: 31%;
+    }
+}
+@media only screen and (min-width: 1401px)  {
+    .strategy-header{
+        position: absolute;
+        left: 53%;
+        top: 136%;
+    }
+    .strategy-body{
+        position: absolute;
+        left: 63%;
+        top: 162%;
+        width: 31%;
+    }
+}
+@media only screen and (min-width: 1600px)  {
+    .strategy-header{
+        position: absolute;
+        left: 53%;
+        top: 150%;
+    }
+    .strategy-body{
+        position: absolute;
+        left: 63%;
+        top: 177%;
+        width:31%;
+    }
+}
+@media only screen and (min-width: 1800px)  {
+    .strategy-header{
+        position: absolute;
+        left: 53%;
+        top: 164%;
+    }
+    .strategy-body{
+        position: absolute;
+        left: 63%;
+        top: 194%;
+        width:31%;
     }
 }
 .active{
@@ -215,6 +313,7 @@ ul#menu-header-menu-1 {
 ul#menu-model-kategorie-menu > li{
     background-color:#6b6b6a;
     color:white;
+    margin-right: 20px;
 }
   
   li.menu-item {
@@ -244,15 +343,24 @@ aspect-ratio:1/2;
 
   a:hover, a:focus, a:active {
    /** color:inherit;*/
-    border-bottom: 2px solid;
+    border-bottom: 2px solid !important;
 }
-li.current-menu-item > a{
-    border-bottom: 2px solid;
+ul.mega-sub-menu > li.mega-menu-item a{
+    border-bottom:none !important;
+}
+ul.mega-sub-menu > li.mega-menu-item{
+    margin-right:0px !important;
+}
+li.mega-menu-item{
+    margin-right: 20px !important;
+}
+li.mega-current-menu-item > a{
+    border-bottom: 2px solid !important;
 }
 a.navbar-brand:hover,a.navbar-brand:focus,a.navbar-brand:active{
     border-bottom:none !important;
 }
-.header-menu > .menu-item a
+.mega-menu-header-menu > .mega-menu-item a
  {
     position: relative;
     display: block;
@@ -260,14 +368,14 @@ a.navbar-brand:hover,a.navbar-brand:focus,a.navbar-brand:active{
     letter-spacing: 1px;
     font-size: 20px;
 }
-.model-menu > .menu-item a
+.model-menu > .mega-menu-item a
  {
     position: relative;
     display: block;
     margin: 0 25px;
     letter-spacing: 1px;
 }
-.header-menu > .menu-item a
+.mega-menu-header-menu > .mega-menu-item a
 ::before {
     content: '';
     display: block;
@@ -281,11 +389,11 @@ a.navbar-brand:hover,a.navbar-brand:focus,a.navbar-brand:active{
     transform: scale(0, 1);
     transition: color 0.1s,transform 0.2s ease-out;
 }
-.header-menu > .menu-item a
+.mega-menu-header-menu > .mega-menu-item a
 :active::before {
     background-color: transparent;
 }
-.header-menu > .menu-item a
+.mega-menu-header-menu > .mega-menu-item a
 :hover::before, a:focus::before {
     transform-origin: left top;
     transform: scale(1, 1);
@@ -386,4 +494,11 @@ label{
 }
 .container-category{
     min-height:75vh;
+}
+.bullet{
+    list-style-type: disc;
+    line-height:1.75;
+}
+#message{
+    height:150px;
 }

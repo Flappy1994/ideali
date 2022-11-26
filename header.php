@@ -52,25 +52,22 @@
                             <img id="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo-im.png" />
                         </a>
                     </div>
-                    <div class="col-11 pe-md-5 pb-md-3">
+                    <div class="col-11 pe-md-5 pt-md-2 text-center">
                         <div class="navbar-nav">
                             <div class="row">
-                                <div class="col-10">
+                                <div class="col-10 d-flex justify-content-center">
                                 <?php
                             wp_nav_menu(array(
                                 'theme_location' => 'header-menu',
                                 'menu_class' => 'header-menu d-flex justify-content-end flex-wrap'
                             ));
                             ?>
-                            </div>
-                            <div class="col-2 pt-md-3">
-                            <?php echo do_shortcode('[wpdreams_ajaxsearchlite]'); ?>
-                            </div>
+                                </div>
+                                <div class="col-2 pt-md-2">
+                                <?php echo do_shortcode('[wpdreams_ajaxsearchlite]'); ?>
                                 </div>
                             </div>
-                       
                         </div>
-                       
                     </div>
                 </div>
             </div>
