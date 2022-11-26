@@ -63,46 +63,85 @@
         </div>
     </div>
     <div class="row d-flex justify-content-center pb-5">
-            <div class="col-lg-2 col-md-6 col-sm-6 col-12">
-                <div class="col-12">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 p-xl-0 p-0">
+                <div class="col-12 col-xl-8 offset-xl-2">
                     <img class="pb-3" src="<?php echo get_template_directory_uri(); ?>/img/services/models.png" class="card-img-top" alt="...">
                 </div>
-                <div class="col-lg-12 text-start">
-                    <h5 class="card-title text-white pb-3">Models & Influencer*innen</h5>
-                    <p class="card-text text-white container-dienstleistungen">In unserer Agentur können Sie neben Models auch Influencer*innen buchen, um somit Ihre Produkte auch auf Social Media Plattformen bewerben.
+                <div class="col-12 col-xl-8 offset-xl-2 mb-5 text-center text-xl-start stretch-flex px-2">
+                    <h5 class="card-title text-white pb-3 ">Models & Influencer*innen</h5>
+                    <p class="card-text text-white container-dienstleistungen ">In unserer Agentur können Sie neben Models auch Influencer*innen buchen, um somit Ihre Produkte auch auf Social Media Plattformen bewerben.
 Somit kreieren wir einen Save Space für klassische und außergewöhnliche Newcomer-Künstler der neuen Generation.</p>
-                    <a href="#" class="text-white">Models</a>
                 </div>
+            </div>
+            <div class="row d-flex d-sm-none">
+                <div class="col-12 px-3 px-xl-none text-center">
+                <a href="#" class="text-white ">Models</a>
                 </div>
-                <div class="col-lg-2 col-md-6 col-sm-6 col-12">
-                <div class="col-12">
-                <img class="pb-3" src="<?php echo get_template_directory_uri(); ?>/img/services/photography.png" class="card-img-top" alt="...">
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 p-xl-0 p-0">
+                    <div class="col-12 col-xl-8 offset-xl-2">
+                    <img class="pb-3" src="<?php echo get_template_directory_uri(); ?>/img/services/photography.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="col-12 col-xl-8 offset-xl-2 mb-5 text-center text-xl-start stretch-flex px-2">
+                        <h5 class="card-title text-white pb-3 ">Video- & Fotografen*innen</h5>
+                        <p class="card-text text-white container-dienstleistungen ">Fotografen sind ein wichtiger Bestandteil in der Werbe- und Modewelt und dürfen bei uns nicht fehlen. </p>
+                    </div>
+            </div>
+            <div class="row d-flex d-sm-none">
+                <div class="col-12 px-3 px-xl-none text-center">
+                <a href="#" class="text-white ">Video & Fotoproduktion</a>
                 </div>
-                <div class="col-lg-12 text-start">
-                    <h5 class="card-title text-white pb-3">Video- & Fotografen*innen</h5>
-                    <p class="card-text text-white container-dienstleistungen">Fotografen sind ein wichtiger Bestandteil in der Werbe- und Modewelt und dürfen bei uns nicht fehlen. </p>
-                    <a href="#" class="text-white">Video & Fotoproduktion</a>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-6 col-sm-6 col-12">
-                <div class="col-12">
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 p-xl-0 p-0">
+                <div class="col-12 col-xl-8 offset-xl-2">
                 <img class="pb-3" src="<?php echo get_template_directory_uri(); ?>/img/services/makeup.png" class="card-img-top" alt="...">
                 </div>
-                <div class="col-lg-12 text-start">
-                    <h5 class="card-title text-white pb-3">Makeup Artists</h5>
-                    <p class="card-text text-white container-dienstleistungen">Beschrieben, dass es ein rieseigen Unterschied macht eine Visa mit dabei zu haben, sowohl für die Qualität der Fotos als auch bei der Bearbeitung.</p>
-                    <a href="#" class="text-white">Makeup Artists</a>
+                <div class="col-12 col-xl-8 offset-xl-2 mb-5 text-center text-xl-start stretch-flex px-2">
+                    <h5 class="card-title text-white pb-3 ">Makeup Artists</h5>
+                    <p class="card-text text-white container-dienstleistungen ">Beschrieben, dass es ein rieseigen Unterschied macht eine Visa mit dabei zu haben, sowohl für die Qualität der Fotos als auch bei der Bearbeitung.</p>
                 </div>
+            </div>
+            <div class="row d-flex d-sm-none">
+                <div class="col-12 px-3 px-xl-none text-center">
+                <a href="#" class="text-white ">Makeup Artists</a>
                 </div>
-                <div class="col-lg-2 col-md-6 col-sm-6 col-12">
-                <div class="col-12">
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 p-xl-0 p-0">
+                <div class="col-12 col-xl-8 offset-xl-2">
                 <img class="pb-3" src="<?php echo get_template_directory_uri(); ?>/img/services/marketing.png" class="card-img-top" alt="...">
                 </div>
-                <div class="col-lg-12 text-start">
-                    <h5 class="card-title text-white pb-3">Marketing & Produktion</h5>
-                    <p class="card-text text-white container-dienstleistungen">Wenn Sie auf der Suche nach einem kreativen Unternehmen sind, das Ihr Projekt voranbringen kann, sind Sie bei uns genau richtig. Wir verfügen über die nötige Kompetenz und kreative Lösungsansätze. </p>
-                    <a href="#" class="text-white">Marketing & Produktion</a>
+                <div class="col-12 col-xl-8 offset-xl-2 mb-5 text-center text-xl-start stretch-flex px-2">
+                    <h5 class="card-title text-white pb-3 ">Marketing & Produktion</h5>
+                    <p class="card-text text-white container-dienstleistungen ">Wenn Sie auf der Suche nach einem kreativen Unternehmen sind, das Ihr Projekt voranbringen kann, sind Sie bei uns genau richtig. Wir verfügen über die nötige Kompetenz und kreative Lösungsansätze. </p>
                 </div>
+            </div>
+            <div class="row d-flex d-sm-none">
+                <div class="col-12 px-3 px-xl-none text-center">
+                <a href="#" class="text-white ">Marketing & Produktion</a>
+                </div>
+            </div>
+            <div class="row d-none d-xl-flex justify-content-center bg-grey text-white p-xl-0 p-0">
+                <div class="col-3">
+                    <div class="col-8 offset-2 text-start">
+                    <a href="#" class="text-white ">Models</a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="col-8 offset-2 text-start">
+                    <a href="#" class="text-white ">Video & Fotoproduktion</a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="col-8 offset-2 text-start">
+                    <a href="#" class="text-white ">Makeup Artists</a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="col-8 offset-2 text-start">
+                    <a href="#" class="text-white ">Marketing & Produktion</a>
+                    </div>
+                </div>
+            </div>
                 </div>
     </div>
 </div>

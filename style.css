@@ -10,7 +10,7 @@ Text Domain: ideali
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
-
+/** HTML-Elements **/
 html, body, .card-body{
     font-weight: 300;
     font-family: Raleway,sans-serif;
@@ -23,10 +23,40 @@ html, body, .card-body{
 p,a{
     font-size:18px;
 }
+img{
+    max-width:100%;
+max-height:100%;
+}
+ul{
+    list-style-type: none;
+    padding-left:0px;
+}
+li { cursor: pointer; }
+a{
+    text-decoration:none;
+}
+/** HTML-Elements End**/
+/** Colors **/
+.bg-grey{
+    background-color:#6b6b6a;
+}
+.bg-white{
+    background-color:white;
+}
+.bg-black{
+    background-color:black !important;
+}
+.nav-link{
+    color:white;
+}
+.list-group-item{
+    background-color: white;
+}
+/** Colors End**/
 .container-dienstleistungen{
-    min-height:300px;
-    max-height:300px;
-    height:300px;
+    min-height:auto;
+    max-height:auto;
+    height:auto;
 }
 .marketing-header{
     position: absolute;
@@ -53,15 +83,7 @@ p,a{
 .max-height-85{
     max-height: 85vh;
 }
-.bg-grey{
-    background-color:#6b6b6a;
-}
-.bg-white{
-    background-color:white;
-}
-.bg-black{
-    background-color:black !important;
-}
+
 .text-underline{
     border-bottom:2px solid;
 }
@@ -82,14 +104,7 @@ p,a{
 .header-desktop{
     background-color:white;
 }
-img{
-    max-width:100%;
-max-height:100%;
-}
-ul{
-    list-style-type: none;
-    padding-left:0px;
-}
+
 div.content-model
 {
     min-width:80%;
@@ -134,8 +149,7 @@ li.letter:active{
     border:solid 1px;
 }
 
-li { cursor: pointer; }
-/**Refers to models.php menu-class "model-menu" **/
+
 .model-menu{
     justify-content: center;
     display:flex;
@@ -157,101 +171,9 @@ img.instagram-icon{
     min-height:40px;
 }
 
-.nav-link{
-    color:white;
-}
-.list-group-item{
-    background-color: white;
-}
-
-@media only screen and (max-width: 1199px) {
-    ul#menu-header-menu>li.menu-item{
-        padding-bottom: 2%;
-    }
-    li.letter{
-        font-size: 24px;
-    }
-    li.menu-item{
-        margin-bottom: 2%;
-    }
-    .marketing-header, .strategy-header{
-        position: inherit;
-    }
-    .marketing-body, .strategy-body{
-        position:inherit;
-        width:100%;
-    }
-}
-@media only screen and (min-width: 1200px) and (max-width: 1400px) {
-    .marketing-header{
-        position: absolute;
-        left: 49%;
-        top: 22%;
-    }
-    .marketing-body{
-        position: absolute;
-        left: 63%;
-        top: 45%;
-        width: 31%;
-    }
-    .strategy-header{
-        position: absolute;
-        left: 53%;
-        top: 130%;
-    }
-    .strategy-body{
-        position: absolute;
-        left: 63%;
-        top: 155%;
-        width: 31%;
-    }
-}
-@media only screen and (min-width: 1401px)  {
-    .strategy-header{
-        position: absolute;
-        left: 53%;
-        top: 136%;
-    }
-    .strategy-body{
-        position: absolute;
-        left: 63%;
-        top: 162%;
-        width: 31%;
-    }
-}
-@media only screen and (min-width: 1600px)  {
-    .strategy-header{
-        position: absolute;
-        left: 53%;
-        top: 150%;
-    }
-    .strategy-body{
-        position: absolute;
-        left: 63%;
-        top: 177%;
-        width:31%;
-    }
-}
-@media only screen and (min-width: 1800px)  {
-    .strategy-header{
-        position: absolute;
-        left: 53%;
-        top: 164%;
-    }
-    .strategy-body{
-        position: absolute;
-        left: 63%;
-        top: 194%;
-        width:31%;
-    }
-}
-.active{
-    background-color:lightgray;
-}
 #logo{
     max-width: 4vw;
 }
-
 
 .b-white{
     background-color:white;
@@ -260,10 +182,7 @@ img.instagram-icon{
 .magazincover{
     height:100%;
 }
-a{
-    text-decoration:none;
-    color:white;
-}
+
 .contact-banner{
     background-image: url("./img/banner/banner-contact.jpg");
     background-repeat: no-repeat;
@@ -342,21 +261,8 @@ ul#menu-model-kategorie-menu > li{
    /** color:inherit;*/
     border-bottom: 2px solid !important;
 }
-ul.mega-sub-menu > li.mega-menu-item a{
-    border-bottom:none !important;
-}
-ul.mega-sub-menu > li.mega-menu-item{
-    margin-right:0px !important;
-}
-li.mega-menu-item{
-    margin-right: 20px !important;
-}
-li.mega-current-menu-item > a{
-    border-bottom: 2px solid !important;
-}
-a.navbar-brand:hover,a.navbar-brand:focus,a.navbar-brand:active{
-    border-bottom:none !important;
-}
+
+/** Mega Menu **/
 .mega-menu-header-menu > .mega-menu-item a
  {
     position: relative;
@@ -395,6 +301,24 @@ a.navbar-brand:hover,a.navbar-brand:focus,a.navbar-brand:active{
     transform-origin: left top;
     transform: scale(1, 1);
 }
+ul.mega-sub-menu > li.mega-menu-item a{
+    border-bottom:none !important;
+}
+ul.mega-sub-menu > li.mega-menu-item{
+    margin-right:0px !important;
+}
+li.mega-menu-item{
+    margin-right: 20px !important;
+}
+li.mega-current-menu-item > a{
+    border-bottom: 2px solid !important;
+}
+/** Mega Menu End**/
+
+a.navbar-brand:hover,a.navbar-brand:focus,a.navbar-brand:active{
+    border-bottom:none !important;
+}
+
   .wp-block-image{
     margin-right: 5%;
   }
@@ -499,3 +423,89 @@ label{
 #message{
     height:150px;
 }
+.container-dienstleistungen{
+    height:auto;
+}
+/**********Responsive Shit **********/
+@media only screen and (max-width: 1199px) {
+    ul#menu-header-menu>li.menu-item{
+        padding-bottom: 2%;
+    }
+    li.letter{
+        font-size: 24px;
+    }
+    li.menu-item{
+        margin-bottom: 2%;
+    }
+    .marketing-header, .strategy-header{
+        position: inherit;
+    }
+    .marketing-body, .strategy-body{
+        position:inherit;
+        width:100%;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .marketing-header{
+        position: absolute;
+        left: 49%;
+        top: 22%;
+    }
+    .marketing-body{
+        position: absolute;
+        left: 63%;
+        top: 45%;
+        width: 31%;
+    }
+    .strategy-header{
+        position: absolute;
+        left: 53%;
+        top: 130%;
+    }
+    .strategy-body{
+        position: absolute;
+        left: 63%;
+        top: 155%;
+        width: 31%;
+    }
+}
+@media only screen and (min-width: 1401px)  {
+    .strategy-header{
+        position: absolute;
+        left: 53%;
+        top: 136%;
+    }
+    .strategy-body{
+        position: absolute;
+        left: 63%;
+        top: 162%;
+        width: 31%;
+    }
+}
+@media only screen and (min-width: 1600px)  {
+    .strategy-header{
+        position: absolute;
+        left: 53%;
+        top: 150%;
+    }
+    .strategy-body{
+        position: absolute;
+        left: 63%;
+        top: 177%;
+        width:31%;
+    }
+}
+@media only screen and (min-width: 1800px)  {
+    .strategy-header{
+        position: absolute;
+        left: 53%;
+        top: 164%;
+    }
+    .strategy-body{
+        position: absolute;
+        left: 63%;
+        top: 194%;
+        width:31%;
+    }
+}
+/**********Responsive Shit End **********/
