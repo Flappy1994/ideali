@@ -2,7 +2,7 @@
 <?php get_header();?>
 <div class="container-fluid content pt-4 p-lg-0 bg-grey">
     <div class="row d-flex justify-content-center">
-        <div class="row d-flex justify-content-around px-0 px-md-5 w-60 mt-lg-5">
+        <div class="row d-flex justify-content-center px-0 px-md-5 px-lg-0 w-60 mt-lg-5">
             <?php
             $modelsRequest = array(
                 'post_type'         => 'page',
@@ -22,12 +22,12 @@
                      $konfektion = get_post_meta(get_the_ID(), 'Konfektionsgröße', true);
                      $name = get_the_title();
                       ?>
-                    <div class="col-12 col-md-3 d-flex justify-content-center justify-content-lg-start text-center mb-3 p-0 model">
+                    <div class="col-12 col-md-3 col-lg-3 d-flex justify-content-center justify-content-lg-start text-center mb-3 p-0 model mx-lg-4">
                         <div class="card border-0 w-100 border-radius-0 card-models">
                             <div class="card-body w-100 container-models p-0">
                                 <div class="container-model-picture">
                                     <a href="<?php echo get_permalink(); ?>">
-                                        <figure class="wp-block-image size-large">
+                                        <figure class="wp-block-image size-large m-0">
                                             <!--<img class="model" src="<?php echo get_profile_picture() ?>" /> -->
                                             <img class="model" src="<?php echo get_template_directory_uri(); ?>/img/model.jpg" />
                                         </figure>

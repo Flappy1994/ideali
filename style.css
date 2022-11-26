@@ -124,12 +124,6 @@ div.content-model
 .category-model{
     object-fit: cover;
 }
-.model, .category-model{
-    min-height:500px;
-    max-height:500px;
-    min-width:500px;
-    max-width:500px;
-}
 
 .category-image{
     max-height:380px;
