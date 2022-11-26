@@ -329,10 +329,7 @@ ul#menu-model-kategorie-menu > li{
 .w-10{
     width: 10% !important;
 }
-.carousel-image{
-object-fit: cover;
-aspect-ratio:1/2;
-}
+
 .header-mobile{
     background-color:white;
 }

@@ -34,33 +34,32 @@
                                     </a>
                                 </div>
                                 <div class="p-lg-0 pt-3 container-fluid bg-grey info-models">
-                                <div class="row d-flex">
-                                    <div class="col-md-12 details">
-                                        <p class="m-0 text-white fw-bold"> <?php echo $name; ?></p>
-                                    </div>
-                                </div>
-                                <div class="row d-flex px-lg-2">
-                                    <div class="col-md-6 details">
-                                            <p class="m-0 text-white text-start">Konfektion: <?php echo $konfektion; ?></p>
+                                    <div class="row d-flex">
+                                        <div class="col-md-12 details">
+                                            <p class="m-0 text-white fw-bold"> <?php echo $name; ?></p>
                                         </div>
-                                    <div class="col-md-6 details">
-                                            <p class="m-0 text-white text-end">Größe: <?php echo  $groesse;?></p>
                                     </div>
-                                </div>
-                                <div class="row d-flex px-lg-2">
-                                <div class="col-md-4 details">
-                                        <p class="m-0 text-white text-start">Brust: <?php echo $brust; ?></p>
+                                    <div class="row d-flex px-lg-2">
+                                        <div class="col-md-6 details">
+                                                <p class="m-0 text-white text-start">Konfektion: <?php echo $konfektion; ?></p>
+                                            </div>
+                                        <div class="col-md-6 details">
+                                                <p class="m-0 text-white text-end">Größe: <?php echo  $groesse;?></p>
+                                        </div>
+                                    </div>
+                                    <div class="row d-flex px-lg-2">
+                                    <div class="col-md-4 details">
+                                            <p class="m-0 text-white text-start">Brust: <?php echo $brust; ?></p>
                                     </div>
                                     <div class="col-md-4 details">
-                                        <p class="m-0 text-white">Taille: <?php echo $taille; ?></p>
+                                            <p class="m-0 text-white">Taille: <?php echo $taille; ?></p>
                                     </div>
                                     <div class="col-md-4 details">
-                                        <p class="m-0 text-white text-end">Hüfte: <?php echo $huefte; ?></p>
+                                            <p class="m-0 text-white text-end">Hüfte: <?php echo $huefte; ?></p>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
-                            </div>
-                            
                         </div>
                     </div>
             <?php
