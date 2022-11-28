@@ -12,22 +12,22 @@
                 </div>
                 <div class="carousel-inner text-center">
                     <div id="banner-faces" class="carousel-item bg-black text-white active p-5">
-                        <div class="col-2" id="faces-absolute">
+                        <div class="col-lg-2 col-12" id="faces-absolute">
                             <p class="mt-5 font-20">Die Gesichter der neuen Generation</p> 
-                            <a href="" class="font-20 text-white">Unsere Models</a>
+                            <a href="/models" class="font-20 text-white">Unsere Models</a>
                         </div>
                     
                     </div>
                     <div id="banner-models" class="carousel-item bg-black text-white p-5">
-                        <div class="col-2" id="models-absolute">
+                        <div class="col-lg-2 col-12" id="models-absolute">
                             <p class="mt-5 font-20">Buchen Sie unsere Models</p>
-                            <a href="" class="font-20 text-black">Buchen</a>
+                            <a href="/models" class="font-20 text-black">Buchen</a>
                         </div>  
                     </div>
                     <div id="banner-makeup" class="carousel-item bg-black text-white p-5">
-                        <div class="col-2" id="makeup-absolute">
+                        <div class="col-lg-2 col-12" id="makeup-absolute">
                             <p class="mt-5 font-20">Buchen Sie unsere Makeup - Artists</p>
-                            <a href="" class="font-20 text-white">Buchen</a>
+                            <a href="/category/services/makeupartist" class="font-20 text-white">Buchen</a>
                         </div>
                     </div>
                 </div>
@@ -56,93 +56,92 @@
         </div>
     </div>
 </div>
-<div class="container-fluid services text-center bg-grey">
+<div class="container-fluid services  bg-grey">
     <div class="row d-flex justify-content-center pb-4">
-        <div class="col-md-6 col-10 mt-5">
+        <div class="col-md-6 col-10 mt-5 text-center">
             <h2 class="text-white">Unsere Dienstleistungen</h2>
         </div>
     </div>
     <div class="row d-flex justify-content-center pb-5">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 p-xl-0 p-0">
-                <div class="col-12 col-xl-8 offset-xl-2">
-                    <img class="pb-3" src="<?php echo get_template_directory_uri(); ?>/img/services/models.png" class="card-img-top" alt="...">
-                </div>
-                <div class="col-12 col-xl-8 offset-xl-2 mb-5 text-center text-xl-start stretch-flex px-2">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 p-xl-0 p-0">
+            <div class="col-12 col-xl-8 offset-xl-2 text-center">
+                    <img class="pb-3 " src="<?php echo get_template_directory_uri(); ?>/img/services/models.png" class="card-img-top" alt="...">
+            </div>
+            <div class="col-12 col-xl-8 offset-xl-2 mb-5 text-center text-xl-start stretch-flex px-2">
                     <h5 class="card-title text-white pb-3 ">Models & Influencer*innen</h5>
                     <p class="card-text text-white container-dienstleistungen ">In unserer Agentur können Sie neben Models auch Influencer*innen buchen, um somit Ihre Produkte auch auf Social Media Plattformen bewerben.
 Somit kreieren wir einen Save Space für klassische und außergewöhnliche Newcomer-Künstler der neuen Generation.</p>
-                </div>
             </div>
-            <div class="row d-flex d-sm-none">
-                <div class="col-12 px-3 px-xl-none text-center">
-                <a href="#" class="text-white ">Models</a>
-                </div>
+        </div>
+        <div class="row d-flex d-sm-none">
+            <div class="col-12 px-3 px-xl-none text-center pb-5">
+                <a href="/models" class="text-white ">Models</a>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 p-xl-0 p-0">
-                    <div class="col-12 col-xl-8 offset-xl-2">
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 p-xl-0 p-0">
+            <div class="col-12 col-xl-8 offset-xl-2 text-center">
                     <img class="pb-3" src="<?php echo get_template_directory_uri(); ?>/img/services/photography.png" class="card-img-top" alt="...">
-                    </div>
-                    <div class="col-12 col-xl-8 offset-xl-2 mb-5 text-center text-xl-start stretch-flex px-2">
+            </div>
+            <div class="col-12 col-xl-8 offset-xl-2 mb-5 text-center text-xl-start stretch-flex px-2">
                         <h5 class="card-title text-white pb-3 ">Video- & Fotografen*innen</h5>
                         <p class="card-text text-white container-dienstleistungen ">Fotografen sind ein wichtiger Bestandteil in der Werbe- und Modewelt und dürfen bei uns nicht fehlen. </p>
-                    </div>
             </div>
-            <div class="row d-flex d-sm-none">
-                <div class="col-12 px-3 px-xl-none text-center">
-                <a href="#" class="text-white ">Video & Fotoproduktion</a>
-                </div>
+        </div>
+        <div class="row d-flex d-sm-none">
+            <div class="col-12 px-3 px-xl-none text-center pb-5">
+                <a href="/category/services/videoproduction" class="text-white ">Video & Fotoproduktion</a>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 p-xl-0 p-0">
-                <div class="col-12 col-xl-8 offset-xl-2">
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 p-xl-0 p-0">
+            <div class="col-12 col-xl-8 offset-xl-2 text-center">
                 <img class="pb-3" src="<?php echo get_template_directory_uri(); ?>/img/services/makeup.png" class="card-img-top" alt="...">
                 </div>
-                <div class="col-12 col-xl-8 offset-xl-2 mb-5 text-center text-xl-start stretch-flex px-2">
+            <div class="col-12 col-xl-8 offset-xl-2 mb-5 text-center text-xl-start stretch-flex px-2">
                     <h5 class="card-title text-white pb-3 ">Makeup Artists</h5>
                     <p class="card-text text-white container-dienstleistungen ">Beschrieben, dass es ein rieseigen Unterschied macht eine Visa mit dabei zu haben, sowohl für die Qualität der Fotos als auch bei der Bearbeitung.</p>
-                </div>
             </div>
-            <div class="row d-flex d-sm-none">
-                <div class="col-12 px-3 px-xl-none text-center">
-                <a href="#" class="text-white ">Makeup Artists</a>
-                </div>
+        </div>
+        <div class="row d-flex d-sm-none">
+            <div class="col-12 px-3 px-xl-none text-center pb-5">
+                <a href="/category/services/makeupartist" class="text-white ">Makeup Artists</a>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 p-xl-0 p-0">
-                <div class="col-12 col-xl-8 offset-xl-2">
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 p-xl-0 p-0">
+            <div class="col-12 col-xl-8 offset-xl-2 text-center">
                 <img class="pb-3" src="<?php echo get_template_directory_uri(); ?>/img/services/marketing.png" class="card-img-top" alt="...">
-                </div>
-                <div class="col-12 col-xl-8 offset-xl-2 mb-5 text-center text-xl-start stretch-flex px-2">
+            </div>
+            <div class="col-12 col-xl-8 offset-xl-2 mb-5 text-center text-xl-start stretch-flex px-2">
                     <h5 class="card-title text-white pb-3 ">Marketing & Produktion</h5>
                     <p class="card-text text-white container-dienstleistungen ">Wenn Sie auf der Suche nach einem kreativen Unternehmen sind, das Ihr Projekt voranbringen kann, sind Sie bei uns genau richtig. Wir verfügen über die nötige Kompetenz und kreative Lösungsansätze. </p>
+            </div>
+        </div>
+        <div class="row d-flex d-sm-none">
+            <div class="col-12 px-3 px-xl-none text-center">
+                <a href="/category/services/marketing" class="text-white ">Marketing & Produktion</a>
+            </div>
+        </div>
+        <div class="row d-none d-lg-flex justify-content-center bg-grey text-white p-xl-0 p-0">
+            <div class="col-3">
+                 <div class="col-8 offset-2 text-start">
+                    <a href="/models" class="text-white ">Models</a>
                 </div>
             </div>
-            <div class="row d-flex d-sm-none">
-                <div class="col-12 px-3 px-xl-none text-center">
-                <a href="#" class="text-white ">Marketing & Produktion</a>
+            <div class="col-3">
+            <div class="col-8 offset-2 text-start">
+                    <a href="/category/services/videoproduction" class="text-white ">Video & Fotoproduktion</a>
+            </div>
+            </div>
+            <div class="col-3">
+            <div class="col-8 offset-2 text-start">
+                    <a href="/category/services/makeupartist" class="text-white ">Makeup Artists</a>
+             </div>
+            </div>
+            <div class="col-3">
+             <div class="col-8 offset-2 text-start">
+                    <a href="/category/services/marketing" class="text-white ">Marketing & Produktion</a>
                 </div>
             </div>
-            <div class="row d-none d-xl-flex justify-content-center bg-grey text-white p-xl-0 p-0">
-                <div class="col-3">
-                    <div class="col-8 offset-2 text-start">
-                    <a href="#" class="text-white ">Models</a>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="col-8 offset-2 text-start">
-                    <a href="#" class="text-white ">Video & Fotoproduktion</a>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="col-8 offset-2 text-start">
-                    <a href="#" class="text-white ">Makeup Artists</a>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="col-8 offset-2 text-start">
-                    <a href="#" class="text-white ">Marketing & Produktion</a>
-                    </div>
-                </div>
-            </div>
-                </div>
+        </div>
     </div>
 </div>
 <div class="container-fluid who-we-are p-5 bg-black">
@@ -189,26 +188,7 @@ Somit kreieren wir einen Save Space für klassische und außergewöhnliche Newco
         <div class="col-md-8 ps-0 bg-white">
             <h2 class="mt-5 mx-5">Kontaktieren Sie uns noch heute!</h2>
             <div class="mt-5 mx-5">
-            <form class="mb-lg-5" id="contact-us">
-                <div class="mb-3">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name">
-                </div>
-                <div class="mb-3">
-                    <label for="mail" class="form-label">E-Mail-Adresse</label>
-                    <input type="email" class="form-control" id="mail">
-                </div>
-                <div class="mb-3">
-                    <label for="tel" class="form-label">Telefonnummer</label>
-                    <input type="tel" class="form-control" id="phone" name="phone"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-                </div>
-                <div class="mb-3">
-                    <label for="tel" class="form-label">Nachricht</label>
-                    <textarea name="text" class="form-control" cols="40" rows="5" form="contact-us"></textarea>
-                </div>
-                <p>Es gilt unsere Datenschutzerklärung.</p>
-                <button type="submit" class="btn btn-outline-dark ">Absenden</button>
-            </form>
+            <?php echo do_shortcode('[contact-form-7 id="1334" title="Index | Kontaktieren Sie uns noch heute!"]');?>
             </div>
         </div>
     </div>

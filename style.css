@@ -335,7 +335,7 @@ a.navbar-brand:hover,a.navbar-brand:focus,a.navbar-brand:active{
     background-repeat:no-repeat;
     background-size:cover;
     height:600px;
-    background-position: -10% 56%;
+    background-position: 0% 56%;
 }
 #banner-makeup{
     background-image:  url("./img/banner/makeup.jpeg");
@@ -422,6 +422,16 @@ label{
 }
 /**********Responsive Shit **********/
 @media only screen and (max-width: 1199px) {
+    #faces-absolute{
+        position: absolute;
+        left: 0%;
+        top: 60%;
+    }
+    #models-absolute,#makeup-absolute{
+        position:absolute;
+        left:0%;
+        top:5%;
+    }
     ul#menu-header-menu>li.menu-item{
         padding-bottom: 2%;
     }
