@@ -46,9 +46,6 @@ a{
 .bg-black{
     background-color:black !important;
 }
-.nav-link{
-    color:white;
-}
 .list-group-item{
     background-color: white;
 }
@@ -80,10 +77,6 @@ a{
     top: 187%;
     width: 31%;
 }
-.max-height-85{
-    max-height: 85vh;
-}
-
 .text-underline{
     border-bottom:2px solid;
 }
@@ -158,16 +151,8 @@ li.letter:active{
     background-position: center;
     background-repeat: no-repeat;
 }
-img.instagram-icon{
-    max-width:40px;
-    min-width:40px;
-    max-height:40px;
-    min-height:40px;
-}
 
-#logo{
-    max-width: 4vw;
-}
+
 
 .b-white{
     background-color:white;
@@ -247,13 +232,16 @@ ul#menu-model-kategorie-menu > li{
     background-color:white;
 }
 .h-75 {
-    height: 75vh !important;
     min-height: 75vh !important;
   }
 
   a:hover, a:focus, a:active {
    /** color:inherit;*/
     border-bottom: 2px solid !important;
+}
+
+.border-hover-none:hover,.border-hover-none:focus,.border-hover-none:active{
+    border-bottom: none !important;
 }
 
 /** Mega Menu **/
@@ -304,46 +292,13 @@ ul.mega-sub-menu > li.mega-menu-item{
 li.mega-menu-item{
     margin-right: 20px !important;
 }
-li.mega-current-menu-item > a{
-    border-bottom: 2px solid !important;
-}
+
 /** Mega Menu End**/
 
 a.navbar-brand:hover,a.navbar-brand:focus,a.navbar-brand:active{
     border-bottom:none !important;
 }
 
-  .wp-block-image{
-    margin-right: 5%;
-  }
-  figure.wp-block-image{
-    margin-bottom: 8px;
-}
-
-
-/**Banner Section**/
-#banner-faces{
-    background-image:  url("./img/banner/faces.jpeg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    height:600px;
-    background-position: 10% 29%;
-    
-}
-#banner-models{
-    background-image:  url("./img/banner/models.jpeg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    height:600px;
-    background-position: 0% 56%;
-}
-#banner-makeup{
-    background-image:  url("./img/banner/makeup.jpeg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    height:600px;
-    background-position: 8% 43%;
-}
 .font-20{
     font-size:20px;
 }
@@ -363,16 +318,10 @@ a.navbar-brand:hover,a.navbar-brand:focus,a.navbar-brand:active{
     left: 15%;
     top: 38%;
 }
-textarea, input{
+textarea, input, select{
     border: 1px solid #c6c6c6;
     border-radius: 5px;
     min-width:100%;
-}
-input[type=submit]{
-    min-width:15%;
-    max-width:15%;
-    background-color:#6b6b6a;
-    color:white;
 }
 label{
     min-width: 100%;
@@ -421,6 +370,34 @@ label{
     height:auto;
 }
 /**********Responsive Shit **********/
+@media only screen and (max-width: 600px) {
+    #banner-faces{
+        background-image:  url("./img/banner/faces.jpeg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        height:600px;
+        background-position: auto;
+        
+    }
+    #banner-models{
+        background-image:  url("./img/banner/models.jpeg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        height:600px;
+        background-position: auto;
+    }
+    #banner-makeup{
+        background-image:  url("./img/banner/makeup.jpeg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        height:600px;
+        background-position: auto;
+    }
+    .carousel-item-our-identity{
+        min-height:300px;
+    }
+
+}
 @media only screen and (max-width: 1199px) {
     #faces-absolute{
         position: absolute;
@@ -447,6 +424,26 @@ label{
     .marketing-body, .strategy-body{
         position:inherit;
         width:100%;
+    }
+    input[type=submit]{
+        min-width:30%;
+        max-width:30%;
+        background-color:#6b6b6a;
+        color:white;
+    }
+}
+@media only screen and(min-width: 1000px){
+    #logo{
+        max-width: 4vw;
+    }
+    input[type=submit]{
+        min-width:15%;
+        max-width:15%;
+        background-color:#6b6b6a;
+        color:white;
+    }
+    li.mega-current-menu-item > a{
+        border-bottom: 2px solid !important;
     }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
@@ -513,3 +510,26 @@ label{
     }
 }
 /**********Responsive Shit End **********/
+/**Banner Section**/
+#banner-faces{
+    background-image:  url("./img/banner/faces.jpeg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:600px;
+    background-position: 50% 29%;
+    
+}
+#banner-models{
+    background-image:  url("./img/banner/models.jpeg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:600px;
+    background-position: 66% 56%;
+}
+#banner-makeup{
+    background-image:  url("./img/banner/makeup.jpeg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:600px;
+    background-position: 8% 43%;
+}

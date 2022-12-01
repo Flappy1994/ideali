@@ -144,7 +144,7 @@ Somit kreieren wir einen Save Space für klassische und außergewöhnliche Newco
         </div>
     </div>
 </div>
-<div class="container-fluid who-we-are p-5 bg-black">
+<div class="container-fluid who-we-are p-md-5 bg-black">
     <div class="row d-flex justify-content-center">
         <div id="carousel-who-we-are" class="carousel carousel-who-we-are slide" data-bs-ride="true">
         <div class="carousel-indicators pt-md-5">
@@ -153,19 +153,19 @@ Somit kreieren wir einen Save Space für klassische und außergewöhnliche Newco
             <button type="button" data-bs-target="#carousel-who-we-are" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner p-5 text-center">
-            <div class="carousel-item bg-black text-white active p-5">
+            <div class="carousel-item carousel-item-our-identity bg-black text-white active p-md-5">
                 <h2 class="">Unsere Kunden</h2> 
                 <p class="mt-5 mb-0">Wir sind erfahren, verlässlich sowie jederzeit auf gute Ergebnisse fokussiert</p>
                 <p class="mb-0">und wissen es zu schätzen, mit großartigen Kunden zusammenzuarbeiten.</p>
                 <p class="pb-md-5"><br></p>
             </div>
-            <div class="carousel-item bg-black text-white p-5">
+            <div class="carousel-item carousel-item-our-identity bg-black text-white p-md-5">
                 <h2 class="">Unsere Motivation</h2>
                 <p class="mt-5 mb-0">Unsere Arbeit ist unsere Leidenschaft und ein positiver Antrieb für jeden Tag.</p>
                 <p class="mb-0">Sie bringt unser Team dazu, an jeder neuen Herausforderung zu wachsen</p>
                 <p class="pb-md-5">und so neue Ziele zu erreichen.</p>
             </div>
-            <div class="carousel-item bg-black text-white p-5">
+            <div class="carousel-item carousel-item-our-identity bg-black text-white p-md-5">
                 <h2 class="">Unser Team</h2>
                 <p class="mt-5 mb-0">Wir haben immer ein Projekt, an dem wir arbeiten. Meistens für unsere Kunden.</p>
                 <p class="mb-0">Von Zeit zu Zeit ist es aber auch ein persönliches Vorhaben,</p>

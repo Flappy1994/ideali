@@ -15,7 +15,7 @@
         </div>
         <div class="row d-flex d-sm-none">
             <div class="col-12 px-3 px-xl-none">
-                <a href="#" class="text-white ">Weiblich</a>
+                <a href="/category/weiblich" class="text-white ">Weiblich</a>
             </div>
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-xl-0 p-0">
@@ -25,7 +25,7 @@
         </div>
         <div class="row d-flex d-sm-none">
             <div class="col-12 px-3 px-xl-none">
-                <a href="#" class="text-white ">Männlich</a>
+                <a href="/category/maennlich" class="text-white ">Männlich</a>
             </div>
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-xl-0 p-0">
@@ -36,18 +36,18 @@
         </div>
         <div class="row d-flex d-sm-none">
             <div class="col-12 px-3 px-xl-none">
-                <a href="#" class="text-white ">Petit</a>
+                <a href="/category/petit" class="text-white ">Petit</a>
             </div>
         </div>
         <div class="row d-none d-lg-flex justify-content-center bg-grey text-white p-xl-0 p-0">
             <div class="col-4 text-center">
-                    <a href="#" class="text-white ">Weiblich</a>
+            <a href="/category/weiblich" class="text-white ">Weiblich</a>
             </div>
             <div class="col-4 text-center">
-                    <a href="#" class="text-white ">Männlich</a>
+            <a href="/category/maennlich" class="text-white ">Männlich</a>
             </div>
             <div class="col-4 text-center">
-                    <a href="#" class="text-white ">Petit</a>
+            <a href="/category/petit" class="text-white ">Petit</a>
             </div>
         </div>
     </div>

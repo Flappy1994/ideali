@@ -32,7 +32,7 @@ $konfektion = get_post_meta(get_the_ID(), 'Konfektionsgröße', true);
                         <div class="col-6 col-md-4 col-lg text-md-center text-start text-white px-md-0"><b>Konfektion</b> <?php echo $konfektion; ?></div>
                     </div>
                     <?php the_content(); ?>
-                    <div class="container-fluid my-md-5 call-to-action">
+                    <div class="container-fluid my-md-5 call-to-action text-white">
                         <div class="row">
                             <h2 class="text-center">Du möchtest mit dem Model arbeiten?</h2>
                         </div>
@@ -40,8 +40,8 @@ $konfektion = get_post_meta(get_the_ID(), 'Konfektionsgröße', true);
                             <div class="col-12 col-lg-3"></div>
                             <div class="col-12 col-lg-3">
                                 <div class="col-12">
-                                <a href="tel: +491736679653">
-                                    <img class="w-25" src="<?php echo get_template_directory_uri(); ?>/img/phone.png" />
+                                <a class="border-hover-none" href="tel: +491736679653">
+                                <img class="w-25" src="<?php echo get_template_directory_uri(); ?>/img/telephone.svg">
                                 </a>
                                 </div>
                                 <div class="col-12 mt-2">
@@ -51,8 +51,8 @@ $konfektion = get_post_meta(get_the_ID(), 'Konfektionsgröße', true);
                             </div>
                             <div class="col-12 col-lg-3">
                                 <div class="col-12">
-                                <a href="mailto: ideali.modelagentur@gmail.com">
-                                    <img class="w-25" src="<?php echo get_template_directory_uri(); ?>/img/email.png" />
+                                <a class="border-hover-none" href="mailto: ideali.modelagentur@gmail.com">
+                                <img class="w-25" src="<?php echo get_template_directory_uri(); ?>/img/envelope.svg">
                                 </a>
                                 </div>
                                 <div class="col-12 mt-2">

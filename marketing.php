@@ -12,7 +12,7 @@
             </div>
             <div class="marketing-body">
                 <p>Wir glauben an das, was wir tun und möchten Sie bei dem unterstützen, was Sie brauchen. Sollten Sie für Ihr Projekt auf der Suche nach neuen Wegen sein, die sowohl kreative als auch individuelle Möglichkeiten zeigen, wird unser Team Sie mit einzigartigen Lösungen überraschen.</p>
-                <a href="">Zur Buchung</a>
+                <a class="text-white" href="">Zur Buchung</a>
             </div>
         </div>
     </div>
@@ -42,7 +42,7 @@
             </div>
             <div class="strategy-body">
                 <p>Individualität...</p>
-                <a href="">Jetzt Buchen</a>
+                <a class="text-white" href="">Jetzt Buchen</a>
             </div>
         </div>
     </div>
@@ -66,7 +66,7 @@
                 <li class="bullet">Content Marketing</li>
                 <li class="bullet">Marketing</li> 
             </ul>
-            <a href="/more">Mehr lesen</a>
+            <a class="text-white" href="/more">Mehr lesen</a>
         </div>
     </div>
 </div>
@@ -75,32 +75,7 @@
         <div class="col-md-8 ps-0 bg-white">
             <h2 class="mt-5 mx-5 text-center">Buchen Sie noch heute ein kostenloses Beratungsgespräch</h2>
             <div class="mt-5 mx-5">
-            <form class="mb-lg-5" id="consult-us">
-                <div class="row d-flex justify-content-center">
-                    <div class="mb-3 col-lg-4">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name">
-                    </div>
-                    <div class="mb-3 col-lg-4">
-                        <label for="mail" class="form-label">E-Mail-Adresse</label>
-                        <input type="email" class="form-control" id="mail">
-                    </div>
-                    <div class="mb-3 col-lg-4">
-                        <label for="tel" class="form-label">Telefonnummer</label>
-                        <input type="tel" class="form-control" id="phone" name="phone"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-                    </div>
-                    <div class="mb-3 col-lg-12">
-                        <label for="tel" class="form-label">Nachricht</label>
-                        <textarea name="text" class="form-control" cols="40" rows="5" form="consult-us"></textarea>
-                    </div>
-                    <div class="col-lg-12">
-                    <p>Es gilt unsere Datenschutzerklärung.</p>
-                    </div>
-                    <div class="col-lg-12 text-center">
-                    <button type="submit" class="btn btn-outline-dark text-center">Absenden</button>
-                    </div>
-                </div>
-            </form>
+                <?php echo do_shortcode('[contact-form-7 id="1353" title="Marketing | Beratungsgespräch"]');?>
             </div>
         </div>
     </div>
