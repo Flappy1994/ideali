@@ -34,14 +34,14 @@ $konfektion = get_post_meta(get_the_ID(), 'Konfektionsgröße', true);
                     <?php the_content(); ?>
                     <div class="container-fluid my-md-5 call-to-action text-white">
                         <div class="row">
-                            <h2 class="text-center">Du möchtest mit dem Model arbeiten?</h2>
+                            <h2 class="text-center">Sie möchten mit dem Model arbeiten?</h2>
                         </div>
                         <div class="row text-center mt-md-5">
                             <div class="col-12 col-lg-3"></div>
                             <div class="col-12 col-lg-3">
                                 <div class="col-12">
                                 <a class="border-hover-none" href="tel: +491736679653">
-                                <img class="w-25" src="<?php echo get_template_directory_uri(); ?>/img/telephone.svg">
+                                <img class="w-25 text-white" src="<?php echo get_template_directory_uri(); ?>/img/telephone.svg">
                                 </a>
                                 </div>
                                 <div class="col-12 mt-2">
@@ -52,11 +52,11 @@ $konfektion = get_post_meta(get_the_ID(), 'Konfektionsgröße', true);
                             <div class="col-12 col-lg-3">
                                 <div class="col-12">
                                 <a class="border-hover-none" href="mailto: ideali.modelagentur@gmail.com">
-                                <img class="w-25" src="<?php echo get_template_directory_uri(); ?>/img/envelope.svg">
+                                <img class="w-25 text-white" src="<?php echo get_template_directory_uri(); ?>/img/envelope.svg">
                                 </a>
                                 </div>
                                 <div class="col-12 mt-2">
-                                    <p>ideali.modelagentur@gmail.com</p>
+                                    <p>kontakt@idealimodels.de</p>
                                 </div>
                                
                             </div>

@@ -20,6 +20,9 @@ html, body, .card-body{
     color:black;
     overflow-x: hidden;
 }
+.wrapper-fixed{
+    margin-top:11vh;
+}
 p,a{
     font-size:18px;
 }
@@ -31,11 +34,19 @@ ul{
     list-style-type: none;
     padding-left:0px;
 }
-li { cursor: pointer; }
+li { 
+    cursor: pointer;
+ }
 a{
     text-decoration:none;
 }
 /** HTML-Elements End**/
+/** important classes **/
+.object-fit-none{
+    object-fit:none;
+}
+/** important classes end**/
+
 /** Colors **/
 .bg-grey{
     background-color:#6b6b6a;
@@ -80,9 +91,13 @@ a{
 .text-underline{
     border-bottom:2px solid;
 }
-.carousel-who-we-are{
-    max-width: 1000px;
+
+.area-img{
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
 }
+
 .card-name{
     font-family: "Segoe UI", Arial, sans-serif;
     -ms-text-size-adjust: 100%;
@@ -96,6 +111,7 @@ a{
 }
 .header-desktop{
     background-color:white;
+    min-height:10vh;
 }
 
 div.content-model
@@ -106,6 +122,13 @@ div.content-model
 .model, .category-image{
         aspect-ratio: 4 /5;
         object-fit: cover;  
+}
+/** this fits every type of image into the same div**/
+img.model{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .carousel-indicators [data-bs-target]{
@@ -137,11 +160,6 @@ li.letter:active{
 }
 
 
-.model-menu{
-    justify-content: center;
-    display:flex;
-    flex-wrap:wrap;
-}
 .image
 {
   position:relative;
@@ -152,8 +170,10 @@ li.letter:active{
     background-repeat: no-repeat;
 }
 
-
-
+.square-img{
+    max-width:15vw;
+    max-height:15vh;
+}
 .b-white{
     background-color:white;
 }
@@ -216,7 +236,6 @@ ul#menu-model-kategorie-menu > li{
   
   li.menu-item {
     float: left;
-    color: black;
   }
   
   li.menu-item a {
@@ -233,6 +252,12 @@ ul#menu-model-kategorie-menu > li{
 }
 .h-75 {
     min-height: 75vh !important;
+  }
+  a{
+    border:2px solid transparent;
+  }
+  a.picture-link{
+    border:none !important;
   }
 
   a:hover, a:focus, a:active {
@@ -253,7 +278,14 @@ ul#menu-model-kategorie-menu > li{
     letter-spacing: 1px;
     font-size: 20px;
 }
-.model-menu > .mega-menu-item a
+
+.model-menu, .dienstleister-menu{
+    justify-content: center;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.model-menu > .mega-menu-item a, .dienstleister-menu > .mega-menu-item a
  {
     position: relative;
     display: block;
@@ -293,6 +325,12 @@ li.mega-menu-item{
     margin-right: 20px !important;
 }
 
+#mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item ul.mega-sub-menu {
+    position: absolute !important;
+    left: 0% !important;
+    top: 100% !important;
+}
+
 /** Mega Menu End**/
 
 a.navbar-brand:hover,a.navbar-brand:focus,a.navbar-brand:active{
@@ -321,10 +359,12 @@ a.navbar-brand:hover,a.navbar-brand:focus,a.navbar-brand:active{
 textarea, input, select{
     border: 1px solid #c6c6c6;
     border-radius: 5px;
-    min-width:100%;
+    width:100%;
+    min-height: 40px;
+    padding: 13px;
 }
 label{
-    min-width: 100%;
+    width: 100%;
 }
 .border-radius-0{
     border-radius:0px;
@@ -343,7 +383,7 @@ label{
     transition: opacity 0.5s linear;  
 }
 
-.card-models:hover .info-models{
+.model:hover .info-models{
     width:100%;
     position:absolute;
     opacity: 1;
@@ -353,9 +393,7 @@ label{
     color: #6b6b6a;
 }
 
-.w-60{
-    width: 86%!important;
-}
+
 .container-category{
     min-height:75vh;
 }
@@ -396,7 +434,7 @@ label{
     .carousel-item-our-identity{
         min-height:300px;
     }
-
+   
 }
 @media only screen and (max-width: 1199px) {
     #faces-absolute{
@@ -445,6 +483,7 @@ label{
     li.mega-current-menu-item > a{
         border-bottom: 2px solid !important;
     }
+  
 }
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
     .marketing-header{
@@ -532,4 +571,7 @@ label{
     background-size:cover;
     height:600px;
     background-position: 8% 43%;
+}
+.form-group > h2{
+    margin-top: 2%;
 }

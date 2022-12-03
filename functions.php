@@ -33,6 +33,11 @@ function ideali_model_category_menu() {
   }
   add_action( 'init', 'ideali_model_category_menu' );
 
+  function ideali_dienstleister_category_menu() {
+    register_nav_menu('dienstleister-category-menu',__( 'Dienstleister Category Menu ' ));
+  }
+  add_action( 'init', 'ideali_dienstleister_category_menu' );
+
   function ideali_header_menu() {
     register_nav_menu('header-menu',__( 'Header Menu ' ));
   }

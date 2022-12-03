@@ -1,55 +1,43 @@
 <?php /* Template Name: Bereiche */ ?>
 <?php get_header(); ?>
-<div class="container-fluid services bg-grey">
-    <div class="row d-flex justify-content-center pb-4">
-        <div class="col-md-6 col-10 mt-5 text-center">
+<style>
+    .services{
+        min-height:77vh;
+    }
+</style>
+<div class="wrapper-areas">
+<div class="container-fluid services bg-grey d-grid">
+    <div class="row d-flex justify-content-center pb-4 pb-md-0 align-content-md-center">
+        <div class="col-md-6 col-10 text-center">
             <h2 class="text-white">Unsere Bereiche</h2>
         </div>
     </div>
-    <div class="row d-flex justify-content-center pb-5">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-xl-0 p-0">
-            <div class="col-12 col-xl-8 offset-xl-2 text-center">
-                    <img class="pb-3" src="<?php echo get_template_directory_uri(); ?>/img/services/models.png" class="card-img-top" alt="...">
+    <div class="row d-flex justify-content-center pb-5 text-center">
+            <div class="col-12 col-md-6 col-lg-4  ">
+            <a href="/category/weiblich">
+                <img class="pb-3 area-img" src="<?php echo get_template_directory_uri(); ?>/img/areas/weiblich.jpg" class="card-img-top" alt="...">
+                </a>
             </div>
-            
-        </div>
-        <div class="row d-flex d-sm-none">
-            <div class="col-12 px-3 px-xl-none">
+            <div class="col-12 col-md-6 col-lg-4  ">
+            <a href="/category/maennlich">
+                    <img class="pb-3 area-img" src="<?php echo get_template_directory_uri(); ?>/img/areas/maennlich.jpg" class="card-img-top" alt="...">
+                    </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4  ">
+            <a href="/category/petit">
+                <img class="pb-3 area-img" src="<?php echo get_template_directory_uri(); ?>/img/areas/petit.jpg" class="card-img-top" alt="...">
+                </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 px-3 px-xl-none">
                 <a href="/category/weiblich" class="text-white ">Weiblich</a>
             </div>
-        </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-xl-0 p-0">
-            <div class="col-12 col-xl-8 offset-xl-2 text-center">
-                    <img class="pb-3" src="<?php echo get_template_directory_uri(); ?>/img/services/photography.png" class="card-img-top" alt="...">
-            </div>
-        </div>
-        <div class="row d-flex d-sm-none">
-            <div class="col-12 px-3 px-xl-none">
+            <div class="col-12 col-md-6 col-lg-4 px-3 px-xl-none">
                 <a href="/category/maennlich" class="text-white ">Männlich</a>
             </div>
-        </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-xl-0 p-0">
-            <div class="col-12 col-xl-8 offset-xl-2 text-center">
-                <img class="pb-3" src="<?php echo get_template_directory_uri(); ?>/img/services/makeup.png" class="card-img-top" alt="...">
-                </div>
-            
-        </div>
-        <div class="row d-flex d-sm-none">
-            <div class="col-12 px-3 px-xl-none">
+            <div class="col-12 col-md-6 col-lg-4 px-3 px-xl-none">
                 <a href="/category/petit" class="text-white ">Petit</a>
             </div>
-        </div>
-        <div class="row d-none d-lg-flex justify-content-center bg-grey text-white p-xl-0 p-0">
-            <div class="col-4 text-center">
-            <a href="/category/weiblich" class="text-white ">Weiblich</a>
-            </div>
-            <div class="col-4 text-center">
-            <a href="/category/maennlich" class="text-white ">Männlich</a>
-            </div>
-            <div class="col-4 text-center">
-            <a href="/category/petit" class="text-white ">Petit</a>
-            </div>
-        </div>
     </div>
+</div>
 </div>
 <?php get_footer(); ?>

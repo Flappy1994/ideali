@@ -50,5 +50,21 @@
             wp_reset_postdata(); ?>
         </div>
     </div>
+    <div class="row d-flex justify-content-center px-lg-0 pt-lg-5">
+        <div class="col-12 mb-lg-5">
+            <h2 class="text-center text-white">
+             Sie haben nicht den passenden Dienstleister gefunden? Hier geht es zu unseren Bereichen
+            </h2>
+        </div>
+        <div>
+            <?php
+        wp_nav_menu(array(
+            'theme_location' => 'dienstleister-category-menu',
+            'container_class' => 'dienstleister-category-menu py-lg-5 text-white',
+            'menu_class' => 'dienstleister-menu'
+        ));
+        ?>
+        </div>
+    </div>
 </div>
 <?php get_footer(); ?>

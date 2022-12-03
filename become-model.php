@@ -21,11 +21,11 @@
         </div>
         <div class="col-12 col-md-3">
             <h3>Polaroids</h3>
-            <p></p>
+            <p>Polaroids sind Bilder auf denen man sich natürlich präsentiert. Der Kunde möchte sehen wie man im natürlichen Zustand, ohne Makeup aussieht, um sich ein Bild davon zu machen, ob man als Model in das gewünschte Projekt hineinpasst. Dabei sollte man einen neutralen nicht lachenden Gesichtsausdruck haben.</p>
             <h3>Was ziehe ich an?</h3>
-            <p></p>
+            <p>Auf den Polaroids, auch Polas genannt könnt ihr entweder einen hautfarbenen, schwarzen oder weißen Bikini bzw. Unterwäsche tragen. Alternativ könnt ihr aber auch ein einfaches Top bzw. T-Shirt und eine enge Jeans anziehen. </p>
             <h3>Tipp</h3>
-            <p></p>
+            <p>Tragt auch hier am besten High Heels für die bessere Körperhaltung. </p>
         </div>
         <div class="col-12 col-md-3">
             <h3>Polaroids richtig gemacht </h3>
@@ -38,6 +38,7 @@
             <h3>Wie viele Fotos mache ich?</h3>
             <p>4-8 Fotos reichen vollkommen aus. </p>
             <p>Du solltest <b>Ganzkörperfotos</b> von Vorne und von der Seite aufnehmen auch <b>Portraits</b> von Vorne und von der Seite.</p>
+            </div>
         </div>
     </div>
 </div>
@@ -54,16 +55,16 @@
         <div class="col-12 d-flex justify-content-center d-flex d-md-none px-0">
             <img class="" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-1.jpg"/>
         </div>
-        <div class="col-12 me-0 py-0 my-0 col-lg-4 ms-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0">
+        <div class="col-12 me-0 py-0 my-0 col-lg-4 ms-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0 pe-md-5">
             <img class="max-height-85" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-2.jpg"/>
         </div>
-        <div class="col-12 me-0 py-0 my-0 col-lg-4 me-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0">
+        <div class="col-12 me-0 py-0 my-0 col-lg-4 me-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0 pe-md-5">
             <img class="max-height-85" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-3.jpg"/>
         </div>
-        <div class="col-12 me-0 py-0 my-0 col-lg-4 ms-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0">
+        <div class="col-12 me-0 py-0 my-0 col-lg-4 ms-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0 pe-md-5">
             <img class="max-height-85" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-4.jpg"/>
         </div>
-        <div class="col-12 me-0 py-0 my-0 col-lg-4 me-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0">
+        <div class="col-12 me-0 py-0 my-0 col-lg-4 me-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0 pe-md-5">
             <img class="max-height-85" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-5.jpg"/>
         </div>
     </div>

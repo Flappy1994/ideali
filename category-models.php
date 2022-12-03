@@ -63,11 +63,11 @@ $cat_name = get_cat_name($cat_id);
                      $konfektion = get_post_meta(get_the_ID(), 'Konfektionsgröße', true);
                      $name = get_the_title();
                       ?>
-                    <div id="<?php echo $name?>" class="col-12 col-md-3 d-flex justify-content-center justify-content-lg-start text-center mb-3 p-0 category-model mx-lg-4">
+                    <div id="<?php echo $name?>" class="col-12 col-md-3 d-flex justify-content-center justify-content-lg-start text-center mb-3 p-0 category-model mx-lg-4 model">
                     <div class="card border-0 w-100 border-radius-0 card-models">
                             <div class="card-body w-100 container-models p-0">
                                 <div class="container-model-picture">
-                                    <a href="<?php echo get_permalink(); ?>">
+                                    <a class="picture-link" href="<?php echo get_permalink(); ?>">
                                         <figure class="wp-block-image size-large m-0">
                                             <img class="model" src="<?php echo get_profile_picture() ?>" />
                                         </figure>

@@ -3,7 +3,7 @@
 <div class="container-fluid">
     <div class="row d-flex justify-content-center">
         <div class="col-12 col-sm-12 col-md-12 col-lg-7 p-0">
-            <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/marketing/video.jpg"/>
+            <img class="w-100 object-fit-none" src="<?php echo get_template_directory_uri()?>/img/marketing/video.jpg"/>
         </div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-5 bg-black text-white">
             <div class="marketing-header bg-black p-0 p-xl-5">
