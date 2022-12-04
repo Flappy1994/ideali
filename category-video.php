@@ -1,8 +1,14 @@
 <?php get_header(); ?>
+<?php
+/* gets current category if the page is a category-page */
+$category = get_category(get_query_var('cat'));
+$cat_id = $category->cat_ID;
+$cat_name = get_cat_name($cat_id);
+?>
 <div class="container-fluid content p-lg-0 bg-black">
-<div class="row pt-5">
+    <div class="row pt-5">
         <div class="col-12 p-lg-0 text-center text-white">
-        <h2>Makeup-Artists</h2>
+        <h2>Video & Fotoproduzenten</h2>
         </div>
     </div>
     <div class="row d-flex justify-content-center">
@@ -11,7 +17,7 @@
             $dienstleisterRequest = array(
                 'post_type'         => 'page',
                 'posts_per_page'    => 100,
-                'category_name' => 'Makeup-Artist'
+                'category_name' => $cat_name
             );
             $dienstleister = new WP_Query($dienstleisterRequest);
 
@@ -22,7 +28,7 @@
                     $description = get_post_meta(get_the_ID(), 'Beschreibung', true);
                      $name = get_the_title();
                       ?>
-                      <div class="col-12 col-md-3 col-lg-6 dienstleister-container me-md-5 mt-5">
+                     <div class="col-12 col-md-3 col-lg-6 dienstleister-container me-md-5 mt-5">
                         <div class="row">
                             <div class="col-12 p-0">
                             <a class="picture-link" href="<?php echo get_permalink(); ?>">

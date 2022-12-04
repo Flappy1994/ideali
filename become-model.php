@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="col-12 pt-md-0 col-md-6 p-0 order-md-2 order-1">
-            <img src="<?php echo get_template_directory_uri()?>/img/banner/model-werden-banner-rechts.png"/>
+            <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/banner/model-werden-banner-rechts.png"/>
         </div>
     </div>
 </div>
@@ -53,19 +53,19 @@
             <img class="w-25" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-1.jpg"/>
         </div>
         <div class="col-12 d-flex justify-content-center d-flex d-md-none px-0">
-            <img class="" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-1.jpg"/>
+            <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-1.jpg"/>
         </div>
         <div class="col-12 me-0 py-0 my-0 col-lg-4 ms-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0 pe-md-5">
-            <img class="max-height-85" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-2.jpg"/>
+            <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-2.jpg"/>
         </div>
         <div class="col-12 me-0 py-0 my-0 col-lg-4 me-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0 pe-md-5">
-            <img class="max-height-85" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-3.jpg"/>
+            <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-3.jpg"/>
         </div>
         <div class="col-12 me-0 py-0 my-0 col-lg-4 ms-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0 pe-md-5">
-            <img class="max-height-85" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-4.jpg"/>
+            <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-4.jpg"/>
         </div>
         <div class="col-12 me-0 py-0 my-0 col-lg-4 me-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0 pe-md-5">
-            <img class="max-height-85" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-5.jpg"/>
+            <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-5.jpg"/>
         </div>
     </div>
 </div>
@@ -78,7 +78,7 @@
             <div class="col-12 col-md-12 ps-md-5">
             <p class="font-20">Schick uns noch heute deine Bewerbung zu. Fülle hierzu unser Registrierungsformular aus und sende uns einige Polaroids von dir. Wir freuen uns auf neue Gesichter.</p>
             </div>
-            <div class="col-12 col-md-12 ps-md-5">
+            <div class="col-12 col-md-12 ps-md-5 pb-5 pb-md-0">
                     <a class="font-20 text-white" href="/bewerbung">Zur Bewerbung</a>
             </div>
         </div>

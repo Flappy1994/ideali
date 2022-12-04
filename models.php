@@ -7,8 +7,10 @@
             $modelsRequest = array(
                 'post_type'         => 'page',
                 'posts_per_page'    => 100,
-                'category_name' => 'Models'
-            );
+                'category_name' => 'Models',
+                'meta_key' => 'Beliebtheit',
+                'order' => 'DESC'
+              );
             $models = new WP_Query($modelsRequest);
 
             // The Loop

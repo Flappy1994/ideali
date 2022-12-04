@@ -20,15 +20,14 @@ html, body, .card-body{
     color:black;
     overflow-x: hidden;
 }
-.wrapper-fixed{
-    margin-top:11vh;
+@media only screen and (min-width:800px){
+    .wrapper-fixed{
+        margin-top:11vh;
+    }
 }
+
 p,a{
     font-size:18px;
-}
-img{
-    max-width:100%;
-max-height:100%;
 }
 ul{
     list-style-type: none;
@@ -134,7 +133,7 @@ img.model{
 .carousel-indicators [data-bs-target]{
     border-radius: 100%;
     width: 25px;
-    height: 20px !important;
+    height: 25px !important;
 }
 
 .category-model{
@@ -382,12 +381,29 @@ label{
     background-color: rgba(0,0,0,.8);
     transition: opacity 0.5s linear;  
 }
-
+.info-dienstleister{
+    position:absolute;
+    width:100%;
+}
+img.dienstleister{
+    float: left;
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+}
+.dienstleister-info{
+    max-height:150px;
+    min-height:150px;
+}
 .model:hover .info-models{
     width:100%;
     position:absolute;
     opacity: 1;
     background-color: rgba(0,0,0,.8);
+}
+.dienstleister-container{
+    width:600px;
+    height:auto;
 }
 .text-gray{
     color: #6b6b6a;
@@ -464,8 +480,6 @@ label{
         width:100%;
     }
     input[type=submit]{
-        min-width:30%;
-        max-width:30%;
         background-color:#6b6b6a;
         color:white;
     }

@@ -1,4 +1,4 @@
-<?php /* Template Name: Category */ ?>
+<?php /* Template Name: Category-Weiblich */ ?>
 <?php get_header(); ?>
 
 <?php

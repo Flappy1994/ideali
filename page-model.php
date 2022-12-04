@@ -56,7 +56,7 @@ $konfektion = get_post_meta(get_the_ID(), 'Konfektionsgröße', true);
                                 </a>
                                 </div>
                                 <div class="col-12 mt-2">
-                                    <p>kontakt@idealimodels.de</p>
+                                    <p>bookings@idealimodels.de</p>
                                 </div>
                                
                             </div>
