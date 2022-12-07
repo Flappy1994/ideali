@@ -25,7 +25,9 @@ html, body, .card-body{
         margin-top:11vh;
     }
 }
-
+a{
+    color:white;
+}
 p,a{
     font-size:18px;
 }
@@ -87,9 +89,6 @@ a{
     top: 187%;
     width: 31%;
 }
-.text-underline{
-    border-bottom:2px solid;
-}
 
 .area-img{
     width:  300px;
@@ -135,6 +134,14 @@ img.model{
     width: 25px;
     height: 25px !important;
 }
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='000000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='000000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
 
 .category-model{
     object-fit: cover;
@@ -259,11 +266,6 @@ ul#menu-model-kategorie-menu > li{
     border:none !important;
   }
 
-  a:hover, a:focus, a:active {
-   /** color:inherit;*/
-    border-bottom: 2px solid !important;
-}
-
 .border-hover-none:hover,.border-hover-none:focus,.border-hover-none:active{
     border-bottom: none !important;
 }
@@ -341,8 +343,8 @@ a.navbar-brand:hover,a.navbar-brand:focus,a.navbar-brand:active{
 }
 #faces-absolute{
     position: absolute;
-    left: 8%;
-    top: 33%;
+    left: 68%;
+    top: 54%;
 }
 #models-absolute{
     left: 67%;
@@ -354,6 +356,11 @@ a.navbar-brand:hover,a.navbar-brand:focus,a.navbar-brand:active{
     position: absolute;
     left: 15%;
     top: 38%;
+}
+#dienstleistungen-absolute{
+    position: absolute;
+    left: 35%;
+    top: 25%;
 }
 textarea, input, select{
     border: 1px solid #c6c6c6;
@@ -423,6 +430,11 @@ img.dienstleister{
 .container-dienstleistungen{
     height:auto;
 }
+a:hover, a:focus, a:active, a.link {
+    border-bottom: 2px solid !important;
+    color:inherit;
+}
+
 /**********Responsive Shit **********/
 @media only screen and (max-width: 600px) {
     #banner-faces{
@@ -447,21 +459,41 @@ img.dienstleister{
         height:600px;
         background-position: auto;
     }
+    #banner-dienstleistungen{
+        background-image:  url("./img/banner/dienstleistungen.jpeg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        height:600px;
+        background-position: auto;
+    }
     .carousel-item-our-identity{
         min-height:300px;
     }
-   
+    a:hover, a:focus, a:active, a.mega-menu-link {
+        border-bottom: none !important;
+    }
 }
 @media only screen and (max-width: 1199px) {
     #faces-absolute{
         position: absolute;
-        left: 0%;
-        top: 60%;
+        left: 1%;
+        top: -6%;
     }
-    #models-absolute,#makeup-absolute{
+    #models-absolute{
+        position:absolute;
+        left: 25%;
+        top: 4%;
+    }
+    
+    #makeup-absolute{
         position:absolute;
         left:0%;
         top:5%;
+    }
+    #dienstleistungen-absolute{
+        position: absolute;
+        left: 0%;
+        top: 25%;
     }
     ul#menu-header-menu>li.menu-item{
         padding-bottom: 2%;
@@ -497,7 +529,7 @@ img.dienstleister{
     li.mega-current-menu-item > a{
         border-bottom: 2px solid !important;
     }
-  
+   
 }
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
     .marketing-header{
@@ -569,7 +601,7 @@ img.dienstleister{
     background-repeat:no-repeat;
     background-size:cover;
     height:600px;
-    background-position: 50% 29%;
+    background-position: 26% 39%;
     
 }
 #banner-models{
@@ -585,6 +617,13 @@ img.dienstleister{
     background-size:cover;
     height:600px;
     background-position: 8% 43%;
+}
+#banner-dienstleistungen{
+    background-image:  url("./img/banner/dienstleistungen.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:600px;
+    background-position: 30% 5%;
 }
 .form-group > h2{
     margin-top: 2%;

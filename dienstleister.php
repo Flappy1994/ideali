@@ -10,7 +10,7 @@
 <div class="container content pt-4 p-lg-0 bg-black">
         <div class="row d-flex justify-content-center ">
             <div class="col-12 text-white text-center">
-                <h2 class="mt-md-5">Dienstleistungen</h2>
+                <h2 class="my-md-5">Dienstleister</h2>
             </div>
         </div>
         <div class="row d-flex justify-content-center ">
@@ -29,7 +29,7 @@
                     $description = get_post_meta(get_the_ID(), 'Beschreibung', true);
                      $name = get_the_title();
                       ?>
-                   <div class="col-12 col-md-3 col-lg-6 dienstleister-container me-md-5 mb-5 mt-5">
+                   <div class="col-12 col-md-3 col-lg-6 dienstleister-container me-md-5 mb-2 mt-2">
                         <div class="row">
                             <div class="col-12 p-0">
                             <a class="picture-link" href="<?php echo get_permalink(); ?>">

@@ -11,7 +11,7 @@ $haare = get_post_meta(get_the_ID(), 'Haare', true);
 $konfektion = get_post_meta(get_the_ID(), 'Konfektionsgröße', true);
 
 ?>
-<main id="main" class="site-main bg-grey" role="main">
+<main id="main" class="site-main bg-black" role="main">
     <div class="container-fluid container-xl">
         <div class="row d-flex justify-content-center ">
             <div class="col-12 mb-2">

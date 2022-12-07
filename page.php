@@ -11,7 +11,7 @@
                 </div>
                 <div class="row d-flex justify-content-center">
                     <div class="col-12 col-lg-8">
-                        <div class="content text-start">
+                        <div class="content text-start text-white">
                             <?php
                             the_content();
                             ?>

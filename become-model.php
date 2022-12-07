@@ -2,11 +2,11 @@
 <?php get_header(); ?>
 <div class="container-fluid bg-black text-white">
     <div class="row d-flex justify-content-center">
-        <div class="col-12 p-0 col-md-6 p-md-5 order-md-1 order-2">
-         <h2 class="px-5 pt-5">Model werden</h2>
-         <p class="px-5 pt-md-5 font-20">Wir helfen dir dabei, den Weg in die Modelwelt zu finden und dich bei Kunden attraktiv zu präsentieren. Neben der Aufnahme als Newcomer Model in Modelagenturen, ist es wichtig als Model auch selbst aktiv nach individuellen Möglichkeiten zu suchen, an Jobs zu kommen, Durchhaltevermögen zu beweisen und in der Mode- und Werbewelt präsent zu sein. Bewirb dich bei uns und lerne mehr über das Modeln und wie du am besten durchstarten kannst.</p>
-            <div class="col-12 px-5">
-            <a class=" pt-5 font-20 text-white" href="/bewerbung">Zur Bewerbung</a>
+        <div class="col-12 p-0 col-md-6 p-md-5 order-md-1 order-2  px-2 px-lg-5 ">
+         <h2 class="pt-5">Model werden</h2>
+         <p class="pt-md-5 font-20">Wir helfen dir dabei, den Weg in die Modelwelt zu finden und dich bei Kunden attraktiv zu präsentieren. Neben der Aufnahme als Newcomer Model in Modelagenturen, ist es wichtig als Model auch selbst aktiv nach individuellen Möglichkeiten zu suchen, an Jobs zu kommen, Durchhaltevermögen zu beweisen und in der Mode- und Werbewelt präsent zu sein. Bewirb dich bei uns und lerne mehr über das Modeln und wie du am besten durchstarten kannst.</p>
+            <div class="col-12">
+            <a class="link pt-5 font-20 text-white" href="/bewerbung">Zur Bewerbung</a>
             </div>
         </div>
         <div class="col-12 pt-md-0 col-md-6 p-0 order-md-2 order-1">
@@ -14,7 +14,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid bg-black text-white py-5 px-5 ps-md-0">
+<div class="container-fluid px-2 px-lg-5 bg-black text-white py-5 ps-md-0">
     <div class="row d-flex justify-content-center py-lg-5 ">
         <div class="col-12 col-md-3">
             <h2>Wie bewerbe ich mich richtig?</h2>
@@ -49,22 +49,19 @@
         </div>
     </div>
     <div class="row d-flex bg-black justify-content-center">
-        <div class="col-lg-12 d-flex justify-content-center py-lg-5 my-lg-5 d-none d-md-flex">
-            <img class="w-25" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-1.jpg"/>
-        </div>
         <div class="col-12 d-flex justify-content-center d-flex d-md-none px-0">
             <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-1.jpg"/>
         </div>
-        <div class="col-12 me-0 py-0 my-0 col-lg-4 ms-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0 pe-md-5">
+        <div class="col-12 me-0 py-0 my-0 col-lg-4 ms-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0 pe-lg-5">
             <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-2.jpg"/>
         </div>
-        <div class="col-12 me-0 py-0 my-0 col-lg-4 me-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0 pe-md-5">
-            <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-3.jpg"/>
+        <div class="col-12 me-0 py-0 my-0 col-lg-4 me-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0 pe-lg-5">
+        <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-1.jpg"/>
         </div>
-        <div class="col-12 me-0 py-0 my-0 col-lg-4 ms-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0 pe-md-5">
+        <div class="col-12 me-0 py-0 my-0 col-lg-4 ms-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0 pe-lg-5">
             <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-4.jpg"/>
         </div>
-        <div class="col-12 me-0 py-0 my-0 col-lg-4 me-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0 pe-md-5">
+        <div class="col-12 me-0 py-0 my-0 col-lg-4 me-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0 pe-lg-5">
             <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-5.jpg"/>
         </div>
     </div>
@@ -79,7 +76,7 @@
             <p class="font-20">Schick uns noch heute deine Bewerbung zu. Fülle hierzu unser Registrierungsformular aus und sende uns einige Polaroids von dir. Wir freuen uns auf neue Gesichter.</p>
             </div>
             <div class="col-12 col-md-12 ps-md-5 pb-5 pb-md-0">
-                    <a class="font-20 text-white" href="/bewerbung">Zur Bewerbung</a>
+                    <a class="link font-20 text-white" href="/bewerbung">Zur Bewerbung</a>
             </div>
         </div>
         <div class="col-12 col-md-6 p-0 order-md-2 order-1">

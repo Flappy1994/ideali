@@ -13,36 +13,6 @@ $cat_name = get_cat_name($cat_id);
         <h2 class="text-center text-white mt-4"><?php echo $cat_name; ?></h2>
     </div>
     <div class="row d-flex justify-content-center">
-        <ul class="col-12 col-md-6 d-flex flex-wrap namefilter justify-content-center text-center text-white">
-            <li class="letter" id="A" onclick="filter('A')">A</li>
-            <li class="letter" id="B" onclick="filter('B')">B</li>
-            <li class="letter" id="C" onclick="filter('C')">C</li>
-            <li class="letter" id="D" onclick="filter('D')">D</li>
-            <li class="letter" id="E" onclick="filter('E')">E</li>
-            <li class="letter" id="F" onclick="filter('F')">F</li>
-            <li class="letter" id="G" onclick="filter('G')">G</li>
-            <li class="letter" id="H" onclick="filter('H')">H</li>
-            <li class="letter" id="I" onclick="filter('I')">I</li>
-            <li class="letter" id="J" onclick="filter('J')">J</li>
-            <li class="letter" id="K" onclick="filter('K')">K</li>
-            <li class="letter" id="L" onclick="filter('L')">L</li>
-            <li class="letter" id="M" onclick="filter('M')">M</li>
-            <li class="letter" id="N" onclick="filter('N')">N</li>
-            <li class="letter" id="O" onclick="filter('O')">O</li>
-            <li class="letter" id="P" onclick="filter('P')">P</li>
-            <li class="letter" id="Q" onclick="filter('Q')">Q</li>
-            <li class="letter" id="R" onclick="filter('R')">R</li>
-            <li class="letter" id="S" onclick="filter('S')">S</li>
-            <li class="letter" id="T" onclick="filter('T')">T</li>
-            <li class="letter" id="U" onclick="filter('U')">U</li>
-            <li class="letter" id="V" onclick="filter('V')">V</li>
-            <li class="letter" id="W" onclick="filter('W')">W</li>
-            <li class="letter" id="X" onclick="filter('X')">X</li>
-            <li class="letter" id="Y" onclick="filter('Y')">Y</li>
-            <li class="letter" id="Z" onclick="filter('Z')">Z</li>
-        </ul>
-    </div>
-    <div class="row d-flex justify-content-center">
         <div class="row d-flex justify-content-center px-0 px-md-5 w-60">
             <?php
             $modelsRequest = array(

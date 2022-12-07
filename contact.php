@@ -3,8 +3,8 @@
 <div class="container-fluid container-xl-fluid content h-75 bg-black text-white">
     <div class="row d-flex justify-content-center mt-md-5">
         <div class="col-12 col-lg-6">
-            <h2 class="mt-5 mx-5 text-center">Buchen Sie noch heute ein kostenloses Beratungsgespräch</h2>
-                <div class="mt-5 mx-5">
+            <h2 class="mt-5 mx-0 mx-lg-5 text-center">Buchen Sie noch heute ein kostenloses Beratungsgespräch</h2>
+                <div class="mt-5 mx-0 mx-lg-5">
                     <?php echo do_shortcode('[contact-form-7 id="1353" title="Marketing | Beratungsgespräch"]');?>
                 </div>
         </div>

@@ -22,7 +22,7 @@
                     $description = get_post_meta(get_the_ID(), 'Beschreibung', true);
                      $name = get_the_title();
                       ?>
-                      <div class="col-12 col-md-3 col-lg-6 dienstleister-container me-md-5 mt-5">
+                      <div class="col-12 col-md-3 col-lg-6 dienstleister-container me-md-5 mb-2 mt-2">
                         <div class="row">
                             <div class="col-12 p-0">
                             <a class="picture-link" href="<?php echo get_permalink(); ?>">

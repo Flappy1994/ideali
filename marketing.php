@@ -5,14 +5,14 @@
         <div class="col-12 col-sm-12 col-md-12 col-lg-7 p-0">
             <img class="w-100 object-fit-none" src="<?php echo get_template_directory_uri()?>/img/marketing/video.jpg"/>
         </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-5 bg-black py-2 py-md-0 text-white">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-5 bg-black py-2 py-md-0 text-white p-2 p-lg-5">
             <div class="marketing-header bg-black p-0 p-xl-5">
                 <h2>Marketing & Produktion</h2>
                 <p>Holen Sie mehr aus sich heraus.</p>
             </div>
             <div class="marketing-body">
                 <p>Wir glauben an das, was wir tun und möchten Sie bei dem unterstützen, was Sie brauchen. Sollten Sie für Ihr Projekt auf der Suche nach neuen Wegen sein, die sowohl kreative als auch individuelle Möglichkeiten zeigen, wird unser Team Sie mit einzigartigen Lösungen überraschen.</p>
-                <a class="text-white" href="/kontakt">Zur Buchung</a>
+                <a class="link text-white" href="/kontakt">Zur Buchung</a>
             </div>
         </div>
     </div>
@@ -26,8 +26,12 @@
                 unser Team besteht aus Marketing- und Social Media Experten, Leadership und Digital<br> Business Innovators als auch... Wir konnten bereits die renommierte Nailflix Gmbh als<br> großen Kunden für uns gewinnen und sind stehts am wachsen...
             </p>
         </div>
-        <div class="col-4 p-0 col-md-5 col-lg-5 d-flex justify-content-center py-5 py-md-0">
-            <img class="w-50 w-md-100" src="<?php echo get_template_directory_uri()?>/img/logo-im.png"/>
+        <div class="col-4 p-0 col-md-6 col-lg-5 d-flex justify-content-center py-5 py-md-0">
+            <div class="row d-flex justify-content-center">
+                <div class="col-12 col-lg-6 d-flex align-items-center">
+                <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/logo-im.png"/>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -42,7 +46,7 @@
             </div>
             <div class="strategy-body">
                 <p>Individualität...</p>
-                <a class="text-white" href="/kontakt">Jetzt Buchen</a>
+                <a class="link text-white" href="/kontakt">Jetzt Buchen</a>
             </div>
         </div>
     </div>
@@ -52,7 +56,7 @@
         <div class="col-12 p-0 col-md-6 col-lg-4 p-lg-5 p-2">
             <h1>Unsere Dienstleistungen</h1>
         </div>
-        <div class="col-12 p-0 col-md-6 col-lg-4 p-lg-5 p-2">
+        <div class="col-12 p-0 col-md-6 col-lg-4 p-lg-5 p-4">
             <ul>
                 <li class="bullet">Marketingberatung</li>
                 <li class="bullet">Werbung</li>
@@ -66,7 +70,7 @@
                 <li class="bullet">Content Marketing</li>
                 <li class="bullet">Marketing</li> 
             </ul>
-            <a class="text-white" href="/dienstleister">Mehr lesen</a>
+            <a class="link text-white" href="/dienstleister">Mehr lesen</a>
         </div>
     </div>
 </div>
