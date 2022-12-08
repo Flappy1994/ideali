@@ -4,7 +4,7 @@
     <div class="row d-flex justify-content-center px-0">
         <div class="col-12 col-md-12 px-0">
             <div class="container-fluid p-0">
-                <div id="carousel-banner" class="carousel carousel-banner slide" data-bs-ride="true">
+                <div id="carousel-banner" class="carousel carousel-banner slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carousel-banner" data-bs-slide-to="0" class="round-buttons active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carousel-banner" data-bs-slide-to="1" class="round-buttons  "aria-label="Slide 2"></button>
@@ -12,29 +12,28 @@
                     <button type="button" data-bs-target="#carousel-banner" data-bs-slide-to="3" class="round-buttons  "aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner text-center">
-                    <div id="banner-faces" class="carousel-item bg-black text-black active p-5">
-                        <div class="col-lg-2 col-6" id="faces-absolute">
-                            <p class="mt-5 font-20">Du möchtest das Gesicht der neuen Generation sein?</p> 
-                            <a class="link" href="/bewerbung" class="font-20 text-black">Hier bewerben</a>
-                        </div>
-                    
-                    </div>
-                    <div id="banner-models" class="carousel-item bg-black text-white p-5">
+                    <div id="banner-models" data-bs-interval="5000" class="carousel-item bg-black text-white p-5">
                         <div class="col-lg-2 col-6" id="models-absolute">
                             <p class="mt-5 font-20">Buchen Sie unsere Models</p>
                             <a class="link text-black" href="/models" class="font-20 text-black">Buchen</a>
                         </div>  
                     </div>
-                    <div id="banner-makeup" class="carousel-item bg-black text-white p-5">
+                    <div id="banner-makeup" data-bs-interval="5000" class="carousel-item bg-black text-white p-5">
                         <div class="col-lg-2 col-6" id="makeup-absolute">
                             <p class="mt-5 font-20">Buchen Sie unsere Makeup - Artists</p>
-                            <a class="link" href="/category/makeup-artist" class="font-20 text-white">Buchen</a>
+                            <a class="link" href="/kontakt" class="font-20 text-white">Buchen</a>
                         </div>
                     </div>
-                    <div id="banner-dienstleistungen" class="carousel-item bg-black text-black p-5">
+                    <div id="banner-faces" data-bs-interval="5000" class="carousel-item bg-black text-black active p-5">
+                        <div class="col-lg-2 col-6" id="faces-absolute">
+                            <p class="mt-5 font-20">Du möchtest das Gesicht der neuen Generation sein?</p> 
+                            <a class="link" href="/bewerbung" class="font-20 text-black">Hier bewerben</a>
+                        </div>
+                    </div>
+                    <div id="banner-dienstleistungen" data-bs-interval="5000" class="carousel-item bg-black text-black p-5">
                         <div class="col-lg-2 col-6" id="dienstleistungen-absolute">
                             <p class="mt-5 font-20">Weitere Dienstleistungen finden Sie hier</p>
-                            <a class="link" href="/dienstleister" class="font-20 text-black">Dienstleister</a>
+                            <a class="link" href="/kontakt" class="font-20 text-black">Dienstleister</a>
                         </div>
                     </div>
                 </div>
@@ -82,13 +81,13 @@
                     <img class="pb-3 w-100" src="<?php echo get_template_directory_uri(); ?>/img/services/photography.png" class="card-img-top" alt="...">
                      <h5 class="d-block d-md-none card-title text-white text-center pb-3 ">Video- & Fotografen*innen</h5>
                     <p class="d-block d-md-none card-text text-white container-dienstleistungen ">Fotografen sind ein wichtiger Bestandteil in der Werbe- und Modewelt und dürfen bei uns nicht fehlen. Wir arbeiten daher mit einer Vielzahl an verschiedenen Video- & Fotografen zusammen die verschiedene Stile mit einbringen. Wenn Sie einen Fotografen suchen sind Sie bei uns genau richtig. Wir helfen Ihnen den Richtigen für Ihr Projekt zu finden.</p>
-                    <a class="link d-inline d-md-none text-white" href="/category/dienstleister/video/">Video & Fotoproduktion</a>
+                    <a class="link d-inline d-md-none text-white" href="/kontakt">Video & Fotoproduktion</a>
             </div>
             <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
                 <img class="pb-3 w-100" src="<?php echo get_template_directory_uri(); ?>/img/services/makeup.png" class="card-img-top" alt="...">
                  <h5 class="d-block d-md-none card-title text-white text-center pb-3 ">Makeup Artists</h5>
                     <p class="d-block d-md-none card-text text-white container-dienstleistungen ">Es macht einen großen Unterschied eine Visagistin im Projekt mit zu buchen, die dafür sorgt, dass sowohl die Qualität der Fotos hochwertiger ausfallen als auch die Bearbeitung dadurch vereinfacht wird.</p>
-                    <a class="link d-inline d-md-none text-white" href="/category/dienstleister/makeup-artist/">Makeup Artists</a>
+                    <a class="link d-inline d-md-none text-white" href="/kontakt">Makeup Artists</a>
             </div>
             <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
                 <img class="pb-3 w-100" src="<?php echo get_template_directory_uri(); ?>/img/services/marketing.png" class="card-img-top" alt="...">
@@ -118,10 +117,10 @@
                    <a class="link text-white" href="/models">Models</a>
             </div>
             <div class="d-none d-md-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
-                   <a class="link text-white" href="/category/dienstleister/video/">Video & Fotoproduktion</a>
+                   <a class="link text-white" href="/kontakt">Video & Fotoproduktion</a>
             </div>
             <div class="d-none d-md-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
-                   <a class="link text-white" href="/category/dienstleister/makeup-artist/">Makeup Artists</a>
+                   <a class="link text-white" href="/kontakt">Makeup Artists</a>
             </div>
             <div class="d-none d-md-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
                    <a class="link text-white" href="/marketing">Marketing & Produktion</a>
@@ -158,11 +157,11 @@
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carousel-who-we-are" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon carousel-control-prev-icon-white" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carousel-who-we-are" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="carousel-control-next-icon carousel-control-next-icon-white" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
             </div>

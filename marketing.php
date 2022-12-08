@@ -6,7 +6,7 @@
             <img class="w-100 object-fit-none" src="<?php echo get_template_directory_uri()?>/img/marketing/video.jpg"/>
         </div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-5 bg-black py-2 py-md-0 text-white p-2 p-lg-5">
-            <div class="marketing-header bg-black p-0 p-xl-5">
+            <div class="marketing-header bg-black p-0 p-xl-4">
                 <h2>Marketing & Produktion</h2>
                 <p>Holen Sie mehr aus sich heraus.</p>
             </div>
@@ -21,9 +21,7 @@
     <div class="row d-flex justify-content-center ps-lg-5 py-lg-5">
         <div class="col-12 p-0 col-md-7 col-lg-7 p-2 p-lg-5">
             <h1>Lernen Sie uns kennen</h1>
-            <p>Wir sind ein dynamisches Team<br>  
-                und haben uns im März 2022 als Startup aufgestellt.<br>
-                unser Team besteht aus Marketing- und Social Media Experten, Leadership und Digital<br> Business Innovators als auch... Wir konnten bereits die renommierte Nailflix Gmbh als<br> großen Kunden für uns gewinnen und sind stehts am wachsen...
+            <p>Wir sind ein internationales junges, dynamisches Team,<br> welches bereits seit mehr als zehn Jahren in der Mode – und Werbewelt tätig ist, als auch jahrelange Erfahrung im Aufbau von Businessen, sowie Marketing und Produktion mitbringt. Unsere Arbeit ist unsere Leidenschaft und ein positiver Antrieb für jeden neuen Tag. Sie bringt uns dazu, Herausforderungen als Chance zu verstehen und neue Ziele zu erreichen.  
             </p>
         </div>
         <div class="col-4 p-0 col-md-6 col-lg-5 d-flex justify-content-center py-5 py-md-0">
@@ -37,15 +35,22 @@
 </div>
 <div class="container-fluid">
     <div class="row d-flex justify-content-center">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-7 p-0">
-            <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/marketing/strategy.jpg"/>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 p-0">
+            <img class="h-100 w-100" src="<?php echo get_template_directory_uri()?>/img/marketing/strategy.jpg"/>
         </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-5 bg-black text-white p-2 p-md-0">
-            <div class="strategy-header bg-black p-0 p-xl-5">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 bg-black text-white p-2 p-lg-5">
+            <div class="strategy-header bg-black p-0 p-xl-4">
                 <h2>Unsere Strategie</h2>
             </div>
             <div class="strategy-body">
-                <p>Individualität...</p>
+                <div class="d-block d-lg-none">
+                <p>„Eine Strategie, die man nicht umsetzt, ist der langsame Weg zum Sieg. Eine Umsetzung ohne überhaupt einen Plan zu besitzen, bedeutet von vornherein die Niederlage.“</p><p class="mb-0">- Sun Tzu</p>
+<br><p>Eine ultimative Strategie gibt es nicht, denn unsere Strategie wird individuell an Ihre Projekte angepasst. Aus diesem Grund empfehlen wir ein Beratungsgespräch, um mit Ihnen gemeinsam die bestmögliche Strategie für Ihr Vorhaben zu entwickeln. Buchen Sie noch heute ein kostenloses Beratungsgespräch und überzeugen Sie sich selbst von unserer Expertise.</p>
+                </div>
+                <div class="d-none d-lg-block">
+                <p>„Eine Strategie, die man nicht umsetzt, ist der langsame Weg zum Sieg. Eine Umsetzung ohne überhaupt einen Plan zu besitzen, bedeutet von vornherein die Niederlage.“- Sun Tzu</p>
+<p>Eine ultimative Strategie gibt es nicht, denn unsere Strategie wird individuell an Ihre Projekte angepasst. Aus diesem Grund empfehlen wir ein Beratungsgespräch, um mit Ihnen gemeinsam die bestmögliche Strategie für Ihr Vorhaben zu entwickeln. Buchen Sie noch heute ein kostenloses Beratungsgespräch und überzeugen Sie sich selbst von unserer Expertise.</p>
+                </div>
                 <a class="link text-white" href="/kontakt">Jetzt Buchen</a>
             </div>
         </div>
@@ -70,7 +75,7 @@
                 <li class="bullet">Content Marketing</li>
                 <li class="bullet">Marketing</li> 
             </ul>
-            <a class="link text-white" href="/dienstleister">Mehr lesen</a>
+            <a class="link text-white" href="/kontakt">Mehr erfahren</a>
         </div>
     </div>
 </div>

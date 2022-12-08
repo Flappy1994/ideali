@@ -27,7 +27,7 @@
                 <div class="row d-flex align-items-center">
                     <div class="col-1">
                         <a class="navbar-brand" href="/">
-                            <img class="w-50" id="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo-im.png" />
+                            <img class="w-75" id="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo-im.png" />
                         </a>
                     </div>
                     <div class="col-9 d-flex justify-content-center">
@@ -50,7 +50,7 @@
                             <div class="row pb-3 d-flex justify-content-between">
                             <div class="col-3 d-flex">
                                 <a class="navbar-brand" href="/">
-                                    <img class="w-50" id="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo-im.png" />
+                                    <img class="w-75" id="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo-im.png" />
                                 </a>
                             </div>
                             <div class="col-6 d-flex justify-content-end align-self-center">

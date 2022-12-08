@@ -9,6 +9,7 @@
                 'posts_per_page'    => 100,
                 'category_name' => 'Models',
                 'meta_key' => 'Beliebtheit',
+                'orderby' => 'meta_value_num',
                 'order' => 'DESC'
               );
             $models = new WP_Query($modelsRequest);

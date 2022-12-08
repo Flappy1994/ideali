@@ -28,7 +28,7 @@
                                 </div>
                                 <div class="col-12 col-lg-3">
                                     <div class="col-12">
-                                    <a class="border-hover-none" href="mailto: ideali.modelagentur@gmail.com">
+                                    <a class="border-hover-none" href="mailto: kontakt@idealimodels.de">
                                     <img class="w-25 text-white" src="<?php echo get_template_directory_uri(); ?>/img/envelope.svg">
                                     </a>
                                     </div>
