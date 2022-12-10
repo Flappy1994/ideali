@@ -2,14 +2,14 @@
 <?php get_header(); ?>
 <div class="container-fluid bg-black text-white">
     <div class="row d-flex justify-content-center">
-        <div class="col-12 p-0 col-md-6 p-md-5 order-md-1 order-2  px-2 px-lg-5 ">
+        <div class="col-12 p-0 col-md-12 col-lg-6 p-md-5 order-2 order-md-2 order-lg-1   px-2 px-lg-5 ">
          <h2 class="pt-5">Model werden</h2>
          <p class="pt-md-5 font-20">Wir helfen dir dabei, den Weg in die Modelwelt zu finden und dich bei Kunden attraktiv zu präsentieren. Neben der Aufnahme als Newcomer Model in Modelagenturen, ist es wichtig als Model auch selbst aktiv nach individuellen Möglichkeiten zu suchen, an Jobs zu kommen, Durchhaltevermögen zu beweisen und in der Mode- und Werbewelt präsent zu sein. Bewirb dich bei uns und lerne mehr über das Modeln und wie du am besten durchstarten kannst.</p>
             <div class="col-12">
             <a class="link pt-5 font-20 text-white" href="/bewerbung">Zur Bewerbung</a>
             </div>
         </div>
-        <div class="col-12 pt-md-0 col-md-6 p-0 order-md-2 order-1">
+        <div class="col-12 pt-md-0 col-md-12 col-lg-6 p-0  order-1 order-md-1 order-lg-2">
             <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/banner/model-werden-banner-rechts.png"/>
         </div>
     </div>
@@ -66,9 +66,9 @@
         </div>
     </div>
 </div>
-<div class="container-fluid py-5 py-lg-0 pt-lg-5 bg-black text-white">
+<div class="container-fluid py-5 py-md-0 pt-md-5 py-lg-0 pt-lg-5 bg-black text-white">
     <div class="row d-flex justify-content-center">
-        <div class="col-12 col-md-6 px-md-5 align-self-md-center">
+        <div class="col-12 col-md-12 col-lg-6 px-md-5 align-self-md-center order-2 order-md-1 order-lg-1">
             <div class="col-12 col-md-12 ps-md-5 d-flex">
             <h2 class="">Model werden</h2>
             </div>
@@ -79,7 +79,7 @@
                     <a class="link font-20 text-white" href="/bewerbung">Zur Bewerbung</a>
             </div>
         </div>
-        <div class="col-12 col-md-6 p-0 order-md-2 order-1">
+        <div class="col-12 col-md-12 col-lg-6 p-0 order-1 order-md-2 order-lg-2 pt-md-5 pt-lg-0">
             <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/polaroids/model-werden-banner-rechts-2.jpg"/>
         </div>
         </div>

@@ -72,57 +72,57 @@
     <div class="row d-flex justify-content-center pb-5">
             <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
                     <img class="pb-3 w-100" src="<?php echo get_template_directory_uri(); ?>/img/services/models.png" class="card-img-top" alt="...">
-                    <h5 class="d-block d-md-none card-title text-white text-center pb-3 ">Models & Influencer*innen</h5>
-                    <p class="d-block d-md-none card-text text-white container-dienstleistungen ">In unserer Agentur können Sie neben Models auch Influencer*innen buchen, um somit Ihre Produkte auch auf Social Media Plattformen bewerben.
+                    <h5 class="d-block d-lg-none card-title text-white text-center pb-3 ">Models & Influencer*innen</h5>
+                    <p class="d-block d-lg-none card-text text-white container-dienstleistungen ">In unserer Agentur können Sie neben Models auch Influencer*innen buchen, um somit Ihre Produkte auch auf Social Media Plattformen bewerben.
                     Somit kreieren wir einen Safe Space für klassische und außergewöhnliche Newcomer-Künstler der neuen Generation.</p>
-                    <a class="link d-inline d-md-none text-white" href="/models">Models</a>
+                    <a class="link d-inline d-lg-none text-white" href="/models">Models</a>
             </div>
             <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
                     <img class="pb-3 w-100" src="<?php echo get_template_directory_uri(); ?>/img/services/photography.png" class="card-img-top" alt="...">
-                     <h5 class="d-block d-md-none card-title text-white text-center pb-3 ">Video- & Fotografen*innen</h5>
-                    <p class="d-block d-md-none card-text text-white container-dienstleistungen ">Fotografen sind ein wichtiger Bestandteil in der Werbe- und Modewelt und dürfen bei uns nicht fehlen. Wir arbeiten daher mit einer Vielzahl an verschiedenen Video- & Fotografen zusammen die verschiedene Stile mit einbringen. Wenn Sie einen Fotografen suchen sind Sie bei uns genau richtig. Wir helfen Ihnen den Richtigen für Ihr Projekt zu finden.</p>
-                    <a class="link d-inline d-md-none text-white" href="/kontakt">Video & Fotoproduktion</a>
+                     <h5 class="d-block d-lg-none card-title text-white text-center pb-3 ">Video- & Fotografen*innen</h5>
+                    <p class="d-block d-lg-none card-text text-white container-dienstleistungen ">Fotografen sind ein wichtiger Bestandteil in der Werbe- und Modewelt und dürfen bei uns nicht fehlen. Wir arbeiten daher mit einer Vielzahl an verschiedenen Video- & Fotografen zusammen die verschiedene Stile mit einbringen. Wenn Sie einen Fotografen suchen sind Sie bei uns genau richtig. Wir helfen Ihnen den Richtigen für Ihr Projekt zu finden.</p>
+                    <a class="link d-inline d-lg-none text-white" href="/kontakt">Video & Fotoproduktion</a>
             </div>
             <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
                 <img class="pb-3 w-100" src="<?php echo get_template_directory_uri(); ?>/img/services/makeup.png" class="card-img-top" alt="...">
-                 <h5 class="d-block d-md-none card-title text-white text-center pb-3 ">Makeup Artists</h5>
-                    <p class="d-block d-md-none card-text text-white container-dienstleistungen ">Es macht einen großen Unterschied eine Visagistin im Projekt mit zu buchen, die dafür sorgt, dass sowohl die Qualität der Fotos hochwertiger ausfallen als auch die Bearbeitung dadurch vereinfacht wird.</p>
-                    <a class="link d-inline d-md-none text-white" href="/kontakt">Makeup Artists</a>
+                 <h5 class="d-block d-lg-none card-title text-white text-center pb-3 ">Makeup Artists</h5>
+                    <p class="d-block d-lg-none card-text text-white container-dienstleistungen ">Es macht einen großen Unterschied eine Visagistin im Projekt mit zu buchen, die dafür sorgt, dass sowohl die Qualität der Fotos hochwertiger ausfallen als auch die Bearbeitung dadurch vereinfacht wird.</p>
+                    <a class="link d-inline d-lg-none text-white" href="/kontakt">Makeup Artists</a>
             </div>
             <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
                 <img class="pb-3 w-100" src="<?php echo get_template_directory_uri(); ?>/img/services/marketing.png" class="card-img-top" alt="...">
-                 <h5 class="d-block d-md-none card-title text-white text-center pb-3 ">Marketing & Produktion</h5>
-                    <p class="d-block d-md-none card-text text-white container-dienstleistungen ">Wenn Sie auf der Suche nach einem kreativen Unternehmen sind, das Ihr Projekt voranbringen kann, sind Sie bei uns genau richtig. Wir verfügen über die nötige Kompetenz und kreative Lösungsansätze.</p>
-                    <a class="link d-inline d-md-none text-white" href="/marketing">Marketing & Produktion</a>
+                 <h5 class="d-block d-lg-none card-title text-white text-center pb-3 ">Marketing & Produktion</h5>
+                    <p class="d-block d-lg-none card-text text-white container-dienstleistungen ">Wenn Sie auf der Suche nach einem kreativen Unternehmen sind, das Ihr Projekt voranbringen kann, sind Sie bei uns genau richtig. Wir verfügen über die nötige Kompetenz und kreative Lösungsansätze.</p>
+                    <a class="link d-inline d-lg-none text-white" href="/marketing">Marketing & Produktion</a>
             </div>
    
-            <div class="d-none d-md-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
+            <div class="d-none d-lg-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
                 <h5 class="card-title text-white pb-3 ">Models & Influencer*innen</h5>
                 <p class="card-text text-white container-dienstleistungen ">In unserer Agentur können Sie neben Models auch Influencer*innen buchen, um somit Ihre Produkte auch auf Social Media Plattformen bewerben.
         Somit kreieren wir einen Safe Space für klassische und außergewöhnliche Newcomer-Künstler der neuen Generation.</p>
             </div>
-            <div class="d-none d-md-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
+            <div class="d-none d-lg-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
                         <h5 class="card-title text-white pb-3 ">Video- & Fotografen*innen</h5>
                         <p class="card-text text-white container-dienstleistungen ">Fotografen sind ein wichtiger Bestandteil in der Werbe- und Modewelt und dürfen bei uns nicht fehlen. Wir arbeiten daher mit einer Vielzahl an verschiedenen Video- & Fotografen zusammen die verschiedene Stile mit einbringen. Wenn Sie einen Fotografen suchen sind Sie bei uns genau richtig. Wir helfen Ihnen den Richtigen für Ihr Projekt zu finden.</p>
             </div>
-            <div class="d-none d-md-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
+            <div class="d-none d-lg-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
                     <h5 class="card-title text-white pb-3 ">Makeup Artists</h5>
                     <p class="card-text text-white container-dienstleistungen ">Es macht einen großen Unterschied eine Visagistin im Projekt mit zu buchen, die dafür sorgt, dass sowohl die Qualität der Fotos hochwertiger ausfallen als auch die Bearbeitung dadurch vereinfacht wird.</p>
             </div>
-            <div class="d-none d-md-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
+            <div class="d-none d-lg-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
                     <h5 class="card-title text-white pb-3 ">Marketing & Produktion</h5>
                     <p class="card-text text-white container-dienstleistungen ">Wenn Sie auf der Suche nach einem kreativen Unternehmen sind, das Ihr Projekt voranbringen kann, sind Sie bei uns genau richtig. Wir verfügen über die nötige Kompetenz und kreative Lösungsansätze.</p>
             </div>
-            <div class="d-none d-md-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
+            <div class="d-none d-lg-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
                    <a class="link text-white" href="/models">Models</a>
             </div>
-            <div class="d-none d-md-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
+            <div class="d-none d-lg-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
                    <a class="link text-white" href="/kontakt">Video & Fotoproduktion</a>
             </div>
-            <div class="d-none d-md-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
+            <div class="d-none d-lg-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
                    <a class="link text-white" href="/kontakt">Makeup Artists</a>
             </div>
-            <div class="d-none d-md-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
+            <div class="d-none d-lg-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
                    <a class="link text-white" href="/marketing">Marketing & Produktion</a>
             </div>
     </div>
@@ -169,8 +169,8 @@
     </div>
 </div>
 <div class="container-fluid call-to-action bg-black pb-md-5">
-    <div class="row d-flex justify-content-center pt-5">
-        <div class="col-md-8 ps-0 bg-white">
+    <div class="row d-flex justify-content-center pt-5 pt-md-0 pt-lg-5">
+        <div class="col-md-12 col-lg-8 ps-0 bg-white pt-md-3 pt-lg-0">
             <h2 class="mt-0 mx-0 px-2 px-lg-0 mt-lg-5 mx-lg-5 text-center">Kontaktieren Sie uns noch heute!</h2>
             <div class="mt-0 mx-0 px-2 px-lg-0 mt-lg-5 mx-lg-5">
             <?php echo do_shortcode('[contact-form-7 id="1334" title="Index | Kontaktieren Sie uns noch heute!"]');?>

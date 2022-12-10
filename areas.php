@@ -18,32 +18,32 @@
                 <img class="area-img" src="<?php echo get_template_directory_uri(); ?>/img/areas/weiblich.jpg" class="card-img-top" alt="...">
                 </a>
             </div>
-            <div class="col-12 d-md-none my-4">
-                <a href="/category/weiblich" class="text-white text-center d-md-none">Weiblich</a>
+            <div class="col-12 d-lg-none my-4">
+                <a href="/category/weiblich" class="text-white text-center d-lg-none">Weiblich</a>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
             <a href="/category/maennlich">
                     <img class="area-img" src="<?php echo get_template_directory_uri(); ?>/img/areas/maennlich.jpg" class="card-img-top" alt="...">
                     </a>
             </div>
-            <div class="col-12 d-md-none my-4">
-            <a href="/category/maennlich" class="text-white text-center d-md-none">Männlich</a>
+            <div class="col-12 d-lg-none my-4">
+            <a href="/category/maennlich" class="text-white text-center d-lg-none">Männlich</a>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
             <a href="/category/petit">
                 <img class="area-img" src="<?php echo get_template_directory_uri(); ?>/img/areas/petit.jpg" class="card-img-top" alt="...">
                 </a>
             </div>
-            <div class="col-12 d-md-none my-4">
-            <a href="/category/petit" class="text-white text-center d-md-none">Petit</a>
+            <div class="col-12 d-lg-none my-4">
+            <a href="/category/petit" class="text-white text-center d-lg-none">Petit</a>
             </div>
-            <div class="d-none d-md-block col-md-6 col-lg-4 px-3 px-xl-none">
+            <div class="d-none d-lg-block col-md-6 col-lg-4 px-3 px-xl-none">
                 <a href="/category/weiblich" class="text-white ">Weiblich</a>
             </div>
-            <div class="d-none d-md-block col-md-6 col-lg-4 px-3 px-xl-none">
+            <div class="d-none d-lg-block col-md-6 col-lg-4 px-3 px-xl-none">
                 <a href="/category/maennlich" class="text-white ">Männlich</a>
             </div>
-            <div class="d-none d-md-block col-md-6 col-lg-4 px-3 px-xl-none">
+            <div class="d-none d-lg-block col-md-6 col-lg-4 px-3 px-xl-none">
                 <a href="/category/petit" class="text-white ">Petit</a>
             </div>
     </div>
