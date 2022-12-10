@@ -15,11 +15,11 @@
     </div>
 </div>
 <div class="container-fluid px-2 px-lg-5 bg-black text-white py-5 ps-md-0">
-    <div class="row d-flex justify-content-center py-lg-5 ">
-        <div class="col-12 col-md-3">
+    <div class="row d-flex justify-content-center py-lg-5 ps-md-5 ps-lg-0 ">
+        <div class="col-12 col-md-12 col-lg-3">
             <h2>Wie bewerbe ich mich richtig?</h2>
         </div>
-        <div class="col-12 col-md-3">
+        <div class="col-12 col-md-12 col-lg-3">
             <h3>Polaroids</h3>
             <p>Polaroids sind Bilder auf denen man sich natürlich präsentiert. Der Kunde möchte sehen wie man im natürlichen Zustand, ohne Makeup aussieht, um sich ein Bild davon zu machen, ob man als Model in das gewünschte Projekt hineinpasst. Dabei sollte man einen neutralen nicht lachenden Gesichtsausdruck haben.</p>
             <h3>Was ziehe ich an?</h3>
@@ -27,7 +27,7 @@
             <h3>Tipp</h3>
             <p>Tragt auch hier am besten High Heels für die bessere Körperhaltung. </p>
         </div>
-        <div class="col-12 col-md-3">
+        <div class="col-12 col-md-12 col-lg-3">
             <h3>Polaroids richtig gemacht </h3>
             <h3>Licht</h3>
             <p>Die richtigen Lichtverhältnisse sind wichtig. Achtet darauf, dass ihr dabei vor einem Fenster steht und das natürliche Licht von draußen richtig nutzt. Alternativ könnt ihr aber auch Ringlights oder wer dies hat, auch professionelle Studiolichter benutzen.</p>
