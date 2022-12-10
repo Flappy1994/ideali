@@ -74,7 +74,7 @@
                     <img class="pb-3 w-100" src="<?php echo get_template_directory_uri(); ?>/img/services/models.png" class="card-img-top" alt="...">
                     <h5 class="d-block d-md-none card-title text-white text-center pb-3 ">Models & Influencer*innen</h5>
                     <p class="d-block d-md-none card-text text-white container-dienstleistungen ">In unserer Agentur können Sie neben Models auch Influencer*innen buchen, um somit Ihre Produkte auch auf Social Media Plattformen bewerben.
-                    Somit kreieren wir einen Save Space für klassische und außergewöhnliche Newcomer-Künstler der neuen Generation.</p>
+                    Somit kreieren wir einen Safe Space für klassische und außergewöhnliche Newcomer-Künstler der neuen Generation.</p>
                     <a class="link d-inline d-md-none text-white" href="/models">Models</a>
             </div>
             <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
@@ -99,7 +99,7 @@
             <div class="d-none d-md-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
                 <h5 class="card-title text-white pb-3 ">Models & Influencer*innen</h5>
                 <p class="card-text text-white container-dienstleistungen ">In unserer Agentur können Sie neben Models auch Influencer*innen buchen, um somit Ihre Produkte auch auf Social Media Plattformen bewerben.
-        Somit kreieren wir einen Save Space für klassische und außergewöhnliche Newcomer-Künstler der neuen Generation.</p>
+        Somit kreieren wir einen Safe Space für klassische und außergewöhnliche Newcomer-Künstler der neuen Generation.</p>
             </div>
             <div class="d-none d-md-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
                         <h5 class="card-title text-white pb-3 ">Video- & Fotografen*innen</h5>

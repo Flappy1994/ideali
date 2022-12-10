@@ -21,11 +21,11 @@
 
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
-    <div class="container-fluid header-desktop d-none d-md-block fixed-top p-md-4">
+    <div class="container-fluid header-desktop d-none d-lg-flex fixed-top p-md-4 align-items-center justify-content-center">
         <div class="navbar-nav">
-            <div class="container-fluid container-navbar text-black">
+            <div class="container-fluid container-navbar text-black p-0">
                 <div class="row d-flex align-items-center">
-                    <div class="col-1">
+                    <div class="col-1 p-0">
                         <a class="navbar-brand" href="/">
                             <img class="w-75" id="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo-im.png" />
                         </a>
@@ -38,14 +38,14 @@
                             ));
                             ?>
                     </div>
-                    <div class="col-2">
+                    <div class="col-2 pe-lg-2">
                                 <?php echo do_shortcode('[wpdreams_ajaxsearchlite]'); ?>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid header-mobile d-block d-md-none">
+    <div class="container-fluid header-mobile d-block d-lg-none fixed-top">
                         <div class="py-3 navbar-nav">
                             <div class="row pb-3 d-flex justify-content-between">
                             <div class="col-3 d-flex">
@@ -62,12 +62,13 @@
                             ?>
                             </div>
                             </div>
-                            <div class="row">
+                            <div class="row" id="search-mobile">
                             <div class="col-12">
-                            <?php echo do_shortcode('[wpdreams_ajaxsearchlite]'); ?>
+                                <?php echo do_shortcode('[wpdreams_ajaxsearchlite]'); ?>
                             </div>
                             </div>
                         </div>
     </div>
 </div>
+
 <div class="wrapper-fixed">

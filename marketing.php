@@ -19,7 +19,7 @@
 </div>
 <div class="container-fluid">
     <div class="row d-flex justify-content-center ps-lg-5 py-lg-5">
-        <div class="col-12 p-0 col-md-7 col-lg-7 p-2 p-lg-5">
+        <div class="col-12 p-0 col-md-12 col-lg-7 p-2 p-lg-5">
             <h1>Lernen Sie uns kennen</h1>
             <p>Wir sind ein internationales junges, dynamisches Team,<br> welches bereits seit mehr als zehn Jahren in der Mode – und Werbewelt tätig ist, als auch jahrelange Erfahrung im Aufbau von Businessen, sowie Marketing und Produktion mitbringt. Unsere Arbeit ist unsere Leidenschaft und ein positiver Antrieb für jeden neuen Tag. Sie bringt uns dazu, Herausforderungen als Chance zu verstehen und neue Ziele zu erreichen.  
             </p>

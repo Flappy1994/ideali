@@ -19,17 +19,17 @@ $konfektion = get_post_meta(get_the_ID(), 'Konfektionsgröße', true);
             </div>
             <div class="col-12 d-flex justify-content-center px-0 mt-2">
                 <div class="content-model">
-                    <div class="row d-flex justify-content-lg-between justify-content-start pb-4 px-3">
+                    <div class="row d-flex justify-content-lg-between justify-content-start pb-4 px-lg-3 px-0">
                         <div class="col-6 col-md-4 col-lg text-md-center text-start text-white px-md-0"><b>Brust</b> <?php echo $brust; ?></div>
                         <div class="col-6 col-md-4 col-lg text-md-center text-start text-white px-md-0"><b>Taille</b> <?php echo $taille; ?></div>
                         <div class="col-6 col-md-4 col-lg text-md-center text-start text-white px-md-0"><b>Hüfte</b> <?php echo $huefte; ?></div>
                         <div class="col-6 col-md-4 col-lg text-md-center text-start text-white px-md-0"><b>Augen</b> <?php echo $augen; ?></div>
                     </div>
-                    <div class="row d-flex justify-content-lg-between justify-content-start pb-4 px-3">
+                    <div class="row d-flex justify-content-lg-between justify-content-start pb-4 px-lg-3 px-0">
                         <div class="col-6 col-md-4 col-lg text-md-center text-start text-white px-md-0"><b>Größe</b> <?php echo $groesse; ?></div>
-                        <div class="col-6 col-md-4 col-lg text-md-center text-start text-white px-md-0"><b>Schuhe</b> <?php echo $schuhe; ?></div>
                         <div class="col-6 col-md-4 col-lg text-md-center text-start text-white px-md-0"><b>Haare</b> <?php echo $haare; ?></div>
                         <div class="col-6 col-md-4 col-lg text-md-center text-start text-white px-md-0"><b>Konfektion</b> <?php echo $konfektion; ?></div>
+                        <div class="col-6 col-md-4 col-lg text-md-center text-start text-white px-md-0"><b>Schuhe</b> <?php echo $schuhe; ?></div>
                     </div>
                     <?php the_content(); ?>
                     <div class="container-fluid my-md-5 call-to-action text-white">

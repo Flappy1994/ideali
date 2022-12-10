@@ -50,23 +50,23 @@
     </div>
     <div class="row d-flex bg-black justify-content-center">
         <div class="col-12 d-flex justify-content-center d-flex d-md-none px-0">
-            <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-1.jpg"/>
+            <img class="w-100 object-fit-cover" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-1.jpg"/>
         </div>
         <div class="col-12 me-0 py-0 my-0 col-lg-4 ms-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0 pe-lg-5">
-            <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-2.jpg"/>
+            <img class="w-100 object-fit-cover" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-2.jpg"/>
         </div>
         <div class="col-12 me-0 py-0 my-0 col-lg-4 me-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0 pe-lg-5">
-        <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-1.jpg"/>
+        <img class="w-100 object-fit-cover" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-1.jpg"/>
         </div>
         <div class="col-12 me-0 py-0 my-0 col-lg-4 ms-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0 pe-lg-5">
-            <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-4.jpg"/>
+            <img class="w-100 object-fit-cover" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-3.jpeg"/>
         </div>
         <div class="col-12 me-0 py-0 my-0 col-lg-4 me-lg-5 d-flex justify-content-center py-lg-5 my-lg-5 px-0 pe-lg-5">
-            <img class="w-100" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-5.jpg"/>
+            <img class="w-100 object-fit-cover" src="<?php echo get_template_directory_uri()?>/img/polaroids/polaroid-4.jpg"/>
         </div>
     </div>
 </div>
-<div class="container-fluid py-5 bg-black text-white">
+<div class="container-fluid py-5 py-lg-0 pt-lg-5 bg-black text-white">
     <div class="row d-flex justify-content-center">
         <div class="col-12 col-md-6 px-md-5 align-self-md-center">
             <div class="col-12 col-md-12 ps-md-5 d-flex">
