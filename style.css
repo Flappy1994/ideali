@@ -24,7 +24,7 @@ html, body, .card-body{
     margin-top: 18vh;
 }
 
-@media only screen and (min-width:800px){
+@media only screen and (min-width:1000px){
     .wrapper-fixed{
         margin-top: 14vh;
     }
@@ -44,6 +44,9 @@ li {
  }
 a{
     text-decoration:none;
+}
+label{
+    width: 100%;
 }
 /** HTML-Elements End**/
 /** important classes **/
@@ -370,9 +373,6 @@ textarea, input, select{
     min-height: 40px;
     padding: 13px;
 }
-label{
-    width: 100%;
-}
 .border-radius-0{
     border-radius:0px;
 }
@@ -416,8 +416,7 @@ img.dienstleister{
 .text-gray{
     color: #6b6b6a;
 }
-
-
+<
 .container-category{
     min-height:75vh;
 }

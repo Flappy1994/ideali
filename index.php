@@ -74,19 +74,19 @@
                     <img class="pb-3 w-100" src="<?php echo get_template_directory_uri(); ?>/img/services/models.png" class="card-img-top" alt="...">
                     <h5 class="d-block d-lg-none card-title text-white text-center pb-3 ">Models & Influencer*innen</h5>
                     <p class="d-block d-lg-none card-text text-white container-dienstleistungen ">In unserer Agentur können Sie neben Models auch Influencer*innen buchen, um somit Ihre Produkte auch auf Social Media Plattformen bewerben.
-                    Somit kreieren wir einen Safe Space für klassische und außergewöhnliche Newcomer-Künstler der neuen Generation.</p>
+                    Somit kreieren wir einen Safe Space für klassische und außergewöhnliche Newcomer-Künstler*innen der neuen Generation.</p>
                     <a class="link d-inline d-lg-none text-white" href="/models">Models</a>
             </div>
             <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
                     <img class="pb-3 w-100" src="<?php echo get_template_directory_uri(); ?>/img/services/photography.png" class="card-img-top" alt="...">
-                     <h5 class="d-block d-lg-none card-title text-white text-center pb-3 ">Video- & Fotografen*innen</h5>
-                    <p class="d-block d-lg-none card-text text-white container-dienstleistungen ">Fotografen sind ein wichtiger Bestandteil in der Werbe- und Modewelt und dürfen bei uns nicht fehlen. Wir arbeiten daher mit einer Vielzahl an verschiedenen Video- & Fotografen zusammen die verschiedene Stile mit einbringen. Wenn Sie einen Fotografen suchen sind Sie bei uns genau richtig. Wir helfen Ihnen den Richtigen für Ihr Projekt zu finden.</p>
+                     <h5 class="d-block d-lg-none card-title text-white text-center pb-3 ">Video- & Fotograf*innen</h5>
+                    <p class="d-block d-lg-none card-text text-white container-dienstleistungen ">Fotograf*innen sind ein wichtiger Bestandteil in der Werbe- und Modewelt und dürfen bei uns nicht fehlen. Wir arbeiten daher mit einer Vielzahl an verschiedenen Video- & Fotograf*innen zusammen die verschiedene Stile mit einbringen. Wenn Sie Fotograf*innen suchen sind Sie bei uns genau richtig. Wir helfen Ihnen den Richtigen für Ihr Projekt zu finden.</p>
                     <a class="link d-inline d-lg-none text-white" href="/kontakt">Video & Fotoproduktion</a>
             </div>
             <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
                 <img class="pb-3 w-100" src="<?php echo get_template_directory_uri(); ?>/img/services/makeup.png" class="card-img-top" alt="...">
                  <h5 class="d-block d-lg-none card-title text-white text-center pb-3 ">Makeup Artists</h5>
-                    <p class="d-block d-lg-none card-text text-white container-dienstleistungen ">Es macht einen großen Unterschied eine Visagistin im Projekt mit zu buchen, die dafür sorgt, dass sowohl die Qualität der Fotos hochwertiger ausfallen als auch die Bearbeitung dadurch vereinfacht wird.</p>
+                    <p class="d-block d-lg-none card-text text-white container-dienstleistungen ">Es macht einen großen Unterschied Visagist*innen im Projekt mit zu buchen, die dafür sorgt, dass sowohl die Qualität der Fotos hochwertiger ausfallen als auch die Bearbeitung dadurch vereinfacht wird.</p>
                     <a class="link d-inline d-lg-none text-white" href="/kontakt">Makeup Artists</a>
             </div>
             <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
@@ -102,12 +102,12 @@
         Somit kreieren wir einen Safe Space für klassische und außergewöhnliche Newcomer-Künstler der neuen Generation.</p>
             </div>
             <div class="d-none d-lg-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
-                        <h5 class="card-title text-white pb-3 ">Video- & Fotografen*innen</h5>
-                        <p class="card-text text-white container-dienstleistungen ">Fotografen sind ein wichtiger Bestandteil in der Werbe- und Modewelt und dürfen bei uns nicht fehlen. Wir arbeiten daher mit einer Vielzahl an verschiedenen Video- & Fotografen zusammen die verschiedene Stile mit einbringen. Wenn Sie einen Fotografen suchen sind Sie bei uns genau richtig. Wir helfen Ihnen den Richtigen für Ihr Projekt zu finden.</p>
+                        <h5 class="card-title text-white pb-3 ">Video- & Fotograf*innen</h5>
+                        <p class="card-text text-white container-dienstleistungen ">Fotograf*innen sind ein wichtiger Bestandteil in der Werbe- und Modewelt und dürfen bei uns nicht fehlen. Wir arbeiten daher mit einer Vielzahl an verschiedenen Video- & Fotograf*innen zusammen die verschiedene Stile mit einbringen. Wenn Sie Fotograf*innen suchen sind Sie bei uns genau richtig. Wir helfen Ihnen den Richtigen für Ihr Projekt zu finden.</p>
             </div>
             <div class="d-none d-lg-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
                     <h5 class="card-title text-white pb-3 ">Makeup Artists</h5>
-                    <p class="card-text text-white container-dienstleistungen ">Es macht einen großen Unterschied eine Visagistin im Projekt mit zu buchen, die dafür sorgt, dass sowohl die Qualität der Fotos hochwertiger ausfallen als auch die Bearbeitung dadurch vereinfacht wird.</p>
+                    <p class="card-text text-white container-dienstleistungen ">Es macht einen großen Unterschied Visagist*innen im Projekt mit zu buchen, die dafür sorgt, dass sowohl die Qualität der Fotos hochwertiger ausfallen als auch die Bearbeitung dadurch vereinfacht wird.</p>
             </div>
             <div class="d-none d-lg-block col-md-6 col-lg-3 mb-5 text-center text-xl-start px-2 d-inline">
                     <h5 class="card-title text-white pb-3 ">Marketing & Produktion</h5>
@@ -138,9 +138,9 @@
             </div>
             <div class="carousel-inner p-5 text-center">
                 <div class="carousel-item carousel-item-our-identity bg-black text-white active p-md-5">
-                    <h2 class="">Unsere Kunden</h2> 
+                    <h2 class="">Unsere Kund*innen</h2> 
                     <p class="mt-5 mb-0">Wir sind erfahren, verlässlich sowie jederzeit auf gute Ergebnisse fokussiert</p>
-                    <p class="mb-0">und wissen es zu schätzen, mit großartigen Kunden zusammenzuarbeiten.</p>
+                    <p class="mb-0">und wissen es zu schätzen, mit großartigen Kund*innen zusammenzuarbeiten.</p>
                     <p class="pb-md-5"><br></p>
                 </div>
                 <div class="carousel-item carousel-item-our-identity bg-black text-white p-md-5">
@@ -151,7 +151,7 @@
                 </div>
                 <div class="carousel-item carousel-item-our-identity bg-black text-white p-md-5">
                     <h2 class="">Unser Team</h2>
-                    <p class="mt-5 mb-0">Wir haben immer ein Projekt, an dem wir arbeiten. Meistens für unsere Kunden.</p>
+                    <p class="mt-5 mb-0">Wir haben immer ein Projekt, an dem wir arbeiten. Meistens für unsere Kund*innen.</p>
                     <p class="mb-0">Von Zeit zu Zeit ist es aber auch ein persönliches Vorhaben,</p>
                     <p class="pb-md-5">wie für gemeinnützige Organisationen, das uns neue Inspiration gewinnen lässt.</p>
                 </div>

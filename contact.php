@@ -18,12 +18,12 @@
             <div class="row text-center d-flex justify-content-center">
                                 <div class="col-12 col-lg-3">
                                     <div class="col-12">
-                                    <a class="border-hover-none" href="tel: +491736679653">
+                                    <a class="border-hover-none" href="tel: +49 174 1550246">
                                     <img class="w-25 text-white" src="<?php echo get_template_directory_uri(); ?>/img/telephone.svg">
                                     </a>
                                     </div>
                                     <div class="col-12 mt-2">
-                                        <p>0173 / 667 9653</p>
+                                        <p>0174 / 155 0246</p>
                                     </div>
                                 </div>
                                 <div class="col-12 col-lg-3">

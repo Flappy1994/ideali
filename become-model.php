@@ -4,7 +4,7 @@
     <div class="row d-flex justify-content-center">
         <div class="col-12 p-0 col-md-12 col-lg-6 p-md-5 order-2 order-md-2 order-lg-1   px-2 px-lg-5 ">
          <h2 class="pt-5">Model werden</h2>
-         <p class="pt-md-5 font-20">Wir helfen dir dabei, den Weg in die Modelwelt zu finden und dich bei Kunden attraktiv zu präsentieren. Neben der Aufnahme als Newcomer Model in Modelagenturen, ist es wichtig als Model auch selbst aktiv nach individuellen Möglichkeiten zu suchen, an Jobs zu kommen, Durchhaltevermögen zu beweisen und in der Mode- und Werbewelt präsent zu sein. Bewirb dich bei uns und lerne mehr über das Modeln und wie du am besten durchstarten kannst.</p>
+         <p class="pt-md-5 font-20">Wir helfen dir dabei, den Weg in die Modelwelt zu finden und dich bei Kund*innen attraktiv zu präsentieren. Neben der Aufnahme als Newcomer Model in Modelagenturen, ist es wichtig als Model auch selbst aktiv nach individuellen Möglichkeiten zu suchen, an Jobs zu kommen, Durchhaltevermögen zu beweisen und in der Mode- und Werbewelt präsent zu sein. Bewirb dich bei uns und lerne mehr über das Modeln und wie du am besten durchstarten kannst.</p>
             <div class="col-12">
             <a class="link pt-5 font-20 text-white" href="/bewerbung">Zur Bewerbung</a>
             </div>
@@ -21,7 +21,7 @@
         </div>
         <div class="col-12 col-md-12 col-lg-3">
             <h3>Polaroids</h3>
-            <p>Polaroids sind Bilder auf denen man sich natürlich präsentiert. Der Kunde möchte sehen wie man im natürlichen Zustand, ohne Makeup aussieht, um sich ein Bild davon zu machen, ob man als Model in das gewünschte Projekt hineinpasst. Dabei sollte man einen neutralen nicht lachenden Gesichtsausdruck haben.</p>
+            <p>Polaroids sind Bilder auf denen man sich natürlich präsentiert. Kund*innen möchten sehen wie man im natürlichen Zustand, ohne Makeup aussieht, um sich ein Bild davon zu machen, ob man als Model in das gewünschte Projekt hineinpasst. Dabei sollte man einen neutralen nicht lachenden Gesichtsausdruck haben.</p>
             <h3>Was ziehe ich an?</h3>
             <p>Auf den Polaroids, auch Polas genannt könnt ihr entweder einen hautfarbenen, schwarzen oder weißen Bikini bzw. Unterwäsche tragen. Alternativ könnt ihr aber auch ein einfaches Top bzw. T-Shirt und eine enge Jeans anziehen. </p>
             <h3>Tipp</h3>

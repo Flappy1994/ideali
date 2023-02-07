@@ -15,7 +15,8 @@
 
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/img/logo-im.png">
 
-    <title>Ideali Models</title>
+    <title>Ideali Models - Die Gesichter der neuen Generation</title>
+    <meta name="description" content="Ideali Models ist die Model- und Werbeagentur, die nicht nur die Models der neuen Generation präsentiert, sondern auch alle Komponenten einer Produktion über Werbespots, Fotoshootings, als auch Visagisten und Fotografen zu Verfügung stellt.">
     <?php wp_head(); ?>
 </head>
 
