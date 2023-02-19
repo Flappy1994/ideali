@@ -13,7 +13,7 @@
                 'category_name' => 'Models',
                 'meta_key' => 'Beliebtheit',
                 'orderby' => 'meta_value_num',
-                'order' => 'DESC'
+                'order' => 'ASC'
               );
             $models = new WP_Query($modelsRequest);
 
